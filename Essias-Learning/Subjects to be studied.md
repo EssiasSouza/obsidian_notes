@@ -1,1 +1,6 @@
  - [ ] base64 coding
+ - [ ] configuração de barramento e rede
+ - [ ] Cillium https://cilium.io/
+ - [ ] GCP Auto pilot
+ - [ ] KRR on Prometheus
+ - [ ] HPA - GCP
