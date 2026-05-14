@@ -12,6 +12,9 @@ https://Killercoda.com
 - KSUG.AI
 https://ksug.ai/
 
+- Dynatrace
+https://university.dynatrace.com/learn
+
 ## Yotube channels
 
 - Killer Shell - Youtube channel
