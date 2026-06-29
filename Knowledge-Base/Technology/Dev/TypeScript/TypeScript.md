@@ -41,8 +41,45 @@ Do transpile
 npx tsc path/to/script.ts
 ```
 
-To transpile automatically maybe used the package.json scripts to call
+To `transpile` automatically maybe used the `package.json` scripts to call
 
 ```json
-...
+...{
+	"scripts": {
+		"dist": "npx tsc src/index.ts",
+		"start:dev": npm run dist && node src/index.js
+	}
+}
 ```
+
+#### Tsconfig
+
+Creating `tsconfig.json` in the project root folder.
+
+```bash
+npx tsc --init
+```
+
+Configuring tsconfig.json
+
+```json
+
+{
+	"compilerOpitions":{
+		"target": "ES6", //Ecma script 6
+		"module": "CommonJS",
+		"outDir": "./dist", //to save the transpiled files.
+		"strict": true,
+		"esModuleInterop": true,
+	}
+}
+```
+
+# Became node.js to run ts
+
+Install tsx
+
+```bash
+npm i tsx -D # - D to rund as dependencies but only for devel environment.
+```
+
