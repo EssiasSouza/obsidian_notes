@@ -215,6 +215,8 @@ PROJECT_ID
 
 with your actual project ID.
 
+Click on `CREATE`
+
 ---
 
 # Understanding `crane`
