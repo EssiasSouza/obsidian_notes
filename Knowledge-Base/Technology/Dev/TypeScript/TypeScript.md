@@ -54,6 +54,8 @@ To `transpile` automatically maybe used the `package.json` scripts to call
 
 #### Tsconfig
 
+[TS Config Documentation](https://)
+
 Creating `tsconfig.json` in the project root folder.
 
 ```bash
@@ -83,3 +85,12 @@ Install tsx
 npm i tsx -D # - D to rund as dependencies but only for devel environment.
 ```
 
+Running:
+
+```bash
+tsx src/<script>.ts
+
+# or
+
+tsx watch src/<script>.ts
+```
