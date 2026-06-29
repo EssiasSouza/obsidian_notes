@@ -13,7 +13,9 @@ Related: [[Java Script]]
 
 https://typescriptlang.org/
 
+https://typescriptlang.org/cheatsheets
 
+TypeScritpt is a superset that is used over JavaScript
 ### Transpile 
 
 Translate and compile
