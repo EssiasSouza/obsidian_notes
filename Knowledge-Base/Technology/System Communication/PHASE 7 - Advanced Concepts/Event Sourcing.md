@@ -1,0 +1,1 @@
+State derived from events.

@@ -1,0 +1,27 @@
+Source: #source/internet_resources 
+Project: #project/devops
+Areas: #area/work
+Subject: #subject/kubernetes
+Type: #type/learning 
+Learning priority: #priority/P2
+Status: #status/to_learning 
+Related: [[Cloud Computing]]
+[[Kubernetes Roadmap]]
+[[GKE - Google Kubernetes Engine]]
+[[Courses Platforms]]
+
+---
+
+Resolve:
+
+- governança
+- multi-cluster
+- RBAC
+- políticas
+- interface operacional
+
+Preciso entender:
+
+- arquitetura
+- uso corporativo
+- integração

@@ -1,0 +1,4 @@
+Separation of:
+
+- writing
+- reading
