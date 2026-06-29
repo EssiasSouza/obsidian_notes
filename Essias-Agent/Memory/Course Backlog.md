@@ -153,3 +153,4 @@ https://cursos.alura.com.br/course/devops-conceitos-comandos-scripts-linux-cli
 - Automação de Fluxos: integrando n8n e IA (dead-line 2026/07/01)
 https://cursos.alura.com.br/course/n8n-trabalhando-com-fluxos-de-trabalho-avancados
 
+- Curso CNC
