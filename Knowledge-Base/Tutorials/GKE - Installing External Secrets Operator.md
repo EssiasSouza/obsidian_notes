@@ -170,10 +170,15 @@ Open:
 
 Create a trigger with:
 
-| Field | Value                   |
-| ----- | ----------------------- |
-| Name  | `copy-external-secrets` |
-| Event | `Manual invocation`     |
+| Field         | Value                                         |
+| ------------- | --------------------------------------------- |
+| Name          | `copy-external-secrets`                       |
+| Event         | `Manual invocation`                           |
+| Source        | `Cloud Build repositories`                    |
+| Configuration |                                               |
+| Type          | Cloud Build configuration file (yaml or json) |
+| Location      | Inline                                        |
+| Step 7        | Click on "Open editor"                        |
 
 ---
 
