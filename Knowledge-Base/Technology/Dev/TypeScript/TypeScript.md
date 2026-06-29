@@ -20,3 +20,29 @@ TypeScritpt is a superset that is used over JavaScript
 
 Translate and compile
 
+### Installing
+
+```bash
+npm install -D typescript
+```
+
+The files need to be with extension .ts.
+
+Example:
+
+```bash
+script.ts
+```
+
+
+Do transpile
+
+```bash
+npx tsc path/to/script.ts
+```
+
+To transpile automatically maybe used the package.json scripts to call
+
+```json
+...
+```
