@@ -18,7 +18,6 @@ This backlog uses the **PEM Matrix** (Personal, Business, Market) to prioritize 
 - **Duration:** 2 hours total.
 - **PEM Score:** Personal (Low/Medium) | Business (High - 5/5) | Market (Low).
 - **Action:** Block 2 hours in the next 2 business days to finish it. Do not start anything new until the remaining 87% is complete.
-<<<<<<< HEAD
 - **Place to learning:** Home
 
 ### 2. ArgoCD: automatizando deploy de aplicações
@@ -153,4 +152,4 @@ https://cursos.alura.com.br/course/kubernetes-microsservicos-subindo-gerenciando
 https://cursos.alura.com.br/course/devops-conceitos-comandos-scripts-linux-cli
 - Automação de Fluxos: integrando n8n e IA (dead-line 2026/07/01)
 https://cursos.alura.com.br/course/n8n-trabalhando-com-fluxos-de-trabalho-avancados
->>>>>>> 0ad59766c194d94f41457fb5eb2d59d6181d2e33
+
