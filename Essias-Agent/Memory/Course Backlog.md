@@ -154,3 +154,4 @@ https://cursos.alura.com.br/course/devops-conceitos-comandos-scripts-linux-cli
 https://cursos.alura.com.br/course/n8n-trabalhando-com-fluxos-de-trabalho-avancados
 
 - Curso CNC
+https:
