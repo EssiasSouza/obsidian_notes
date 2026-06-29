@@ -40,6 +40,9 @@ Application / Pod
 
 # Namespace Structure
 
+**Before all**
+Install External Secrets Operator [[GKE - Installing External Secrets Operator]]
+
 This tutorial uses the following structure:
 
 | Namespace          | Purpose                                     |

@@ -269,6 +269,12 @@ external-secrets:v2.5.0
 
 Now reinstall Helm pointing to the internal registry image:
 
+First remove the last try:
+
+```
+helm uninstall external-secrets -n external-secrets
+```
+
 ```bash id="k3x8fy"
 helm install external-secrets external-secrets/external-secrets \
 -n external-secrets \
