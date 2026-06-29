@@ -6,6 +6,7 @@ Type: #type/idea
 Learning priority: #priority/P1 
 Status: #status/learning 
 Related: [[Knowledge-Base/Technology/CI-CD/CI-CD|CI-CD]]
+Tutorial: [[Git - GitHub]]
 
 ---
 # Git Authentication on Windows Using Git Bash

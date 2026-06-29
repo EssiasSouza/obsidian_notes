@@ -1,15 +1,11 @@
-Source: 
-Project: 
+Source: #source/internet_resources 
+Project: #project/devops
 Areas: #area/work
-Subject: 
-Type: #type/idea
-Learning priority: 
-Status: 
-Related: 
+Subject: #subject/git 
+Type: #type/tutorial
+Related: [[Git]]
 
 ---
-
-
 # Git & GitHub Workflow Guide for a Node.js Project
 
 This guide demonstrates a complete Git and GitHub workflow using a simple Node.js project as an example.
