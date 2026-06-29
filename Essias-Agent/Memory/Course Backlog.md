@@ -10,14 +10,99 @@ This backlog uses the **PEM Matrix** (Personal, Business, Market) to prioritize 
 
 ---
 
+<<<<<<< HEAD
+## Active Courses (WIP Limit: 2) - [P0]
+
+### 1. Discover Finland e-learning pathway (WIF)
+=======
 ## Active Courses (WIP Limit: 2)
 
 ### 1. [P0] Discover Finland e-learning pathway (WIF)
+>>>>>>> 0ad59766c194d94f41457fb5eb2d59d6181d2e33
 - **Link:** [businessfinland](https://akatemia.keha-keskus.fi/ns/businessfinland)
 - **Status:** 13% completed.
 - **Duration:** 2 hours total.
 - **PEM Score:** Personal (Low/Medium) | Business (High - 5/5) | Market (Low).
 - **Action:** Block 2 hours in the next 2 business days to finish it. Do not start anything new until the remaining 87% is complete.
+<<<<<<< HEAD
+- **Place to learning:** Home
+
+### 2. ArgoCD: automatizando deploy de aplicações
+- **Link:** [Alura Course](https://cursos.alura.com.br/course/argocd-automatizando-deploy-aplicacoes)
+- **Status:** Not started.
+- **PEM Score:** Personal (High) | Business (High) | Market (High).
+- **Action:** Core DevOps. Urgent (Deadline 2026/07/01). Execute immediately.
+
+---
+
+## On Deck (Immediate Queue)
+
+### Kubernetes com microsserviços: subindo e gerenciando uma aplicação
+- **Link:** [Alura Course](https://cursos.alura.com.br/course/kubernetes-microsservicos-subindo-gerenciando-aplicacao)
+- **Status:** Not started.
+- **Action:** Core DevOps. Urgent (Deadline 2026/07/01). Starts as soon as WIF or ArgoCD finishes.
+
+---
+
+## High Priority (Core Technical Autonomy) - [P1]
+
+### 100 days of cloud hands-on
+- **Link:** [Udemy Course](https://www.udemy.com/course/100-days-of-cloud-hands-on-labs/learn/lecture/55929149?start=0)
+- **Action:** Major practice engine for Cloud.
+
+### DevOps BootCamp: Trilha de aprendizado rápido [All-in-one]
+- **Link:** [Udemy Course](https://www.udemy.com/course/devops-bootcamp-trilha-de-aprendizado-rapido-all-in-one/learn/lecture/40642228?start=0#overview)
+- **Duration:** 7 hours.
+- **Action:** Quick wins in core DevOps.
+
+---
+
+## Medium Priority (Market/Personal goals with deadlines) - [P2]
+
+### Master the NEW TOEFL iBT 2026 Exam: A Complete Course
+- **Link:** [Udemy Course](https://www.udemy.com/course/toefl-ibt-online-preparation-course/learn/lecture/52886047?start=0#overview)
+- **Action:** Personal English goal.
+
+### Automação de Fluxos: integrando n8n e IA
+- **Link:** [Alura Course](https://cursos.alura.com.br/course/n8n-trabalhando-com-fluxos-de-trabalho-avancados)
+- **Action:** Good for automation background. Deadline 2026/07/01.
+
+### DevOps: explorando conceitos, comandos e scripts no Linux CLI
+- **Link:** [Alura Course](https://cursos.alura.com.br/course/devops-conceitos-comandos-scripts-linux-cli)
+- **Action:** Review. Deadline 2026/07/01.
+
+### Mensageria com Java: RabbitMQ e Kafka
+- **Link:** [Alura Course](https://cursos.alura.com.br/course/mensageria-java-rabbitmq-kafka)
+- **Action:** Architecture knowledge. Deadline 2026/07/01.
+
+---
+
+## Stand-by / Curiosity (Free time only) - [P3]
+
+### Bootcamp Corpay Backend do zero a pratica (Node.js)
+- **Link:** [DIO Course](https://web.dio.me/track/bootcamp-corpay-backend-do-zero-a-pratica)
+- **Status:** 37% completed.
+- **Duration:** 43 hours total.
+- **PEM Score:** Personal (Low/Medium) | Business (High - 5/5) | Market (High).
+- **Action:** Demoted from P0. Out of core focus. Study only in free time.
+- **Place to learning:** Work or home
+
+### Introduction to Blockchain (DIO)
+- **Link:** [DIO Course](https://web.dio.me/course/visao-geral-sobre-blockchain/learning/40518060-be8f-4874-9cfe-1b84eeb2e187?autoplay=1)
+
+### SysAdmin Linux - 100% Terminal - FREE
+- **Link:** [Udemy Course](https://www.udemy.com/course/sysadmin-linux-free/learn/lecture/21654754?start=0#overview)
+
+### Appian Learning From Beginner to Advanced
+- **Link:** [Udemy Course](https://www.udemy.com/course/appian-learning-from-beginner-to-advanced/learn/lecture/39888380?start=0#overview)
+- **Action:** Translation project.
+
+### Security Courses (EC-Council)
+- [Emulate Adversarial Activity with Atomic Red Team](https://learn.eccouncil.org/course/emulate-adversarial-activity-with-atomic-red-team?logged=true)
+- [OWASP API Top 10 crAPI](https://learn.eccouncil.org/course/owasp-api-top-10-crapi?logged=true)
+- [Learn Burp Suite for Advanced Web Penetration Testing](https://learn.eccouncil.org/course/learn-burp-suite-for-advanced-web-penetration-testing)
+- [Red Team Mastery: Advanced Offensive Security](https://learn.eccouncil.org/course/red-team-mastery-advanced-offensive-security?logged=true)
+=======
 - **Place to learning**: Home
 ### 2. [P0] Discover Finland e-learning pathway (WIF)
 - **Link:** [Dio Link course](https://web.dio.me/track/bootcamp-corpay-backend-do-zero-a-pratica)
@@ -74,3 +159,4 @@ https://cursos.alura.com.br/course/kubernetes-microsservicos-subindo-gerenciando
 https://cursos.alura.com.br/course/devops-conceitos-comandos-scripts-linux-cli
 - Automação de Fluxos: integrando n8n e IA (dead-line 2026/07/01)
 https://cursos.alura.com.br/course/n8n-trabalhando-com-fluxos-de-trabalho-avancados
+>>>>>>> 0ad59766c194d94f41457fb5eb2d59d6181d2e33
