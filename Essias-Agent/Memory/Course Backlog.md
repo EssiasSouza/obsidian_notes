@@ -9,16 +9,10 @@ This backlog uses the **PEM Matrix** (Personal, Business, Market) to prioritize 
 - **P3:** Stand-by/Curiosity (Long-term market focus, consume only during free time).
 
 ---
-
-<<<<<<< HEAD
 ## Active Courses (WIP Limit: 2) - [P0]
 
-### 1. Discover Finland e-learning pathway (WIF)
-=======
-## Active Courses (WIP Limit: 2)
-
 ### 1. [P0] Discover Finland e-learning pathway (WIF)
->>>>>>> 0ad59766c194d94f41457fb5eb2d59d6181d2e33
+
 - **Link:** [businessfinland](https://akatemia.keha-keskus.fi/ns/businessfinland)
 - **Status:** 13% completed.
 - **Duration:** 2 hours total.
