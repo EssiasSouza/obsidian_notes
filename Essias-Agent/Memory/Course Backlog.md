@@ -95,7 +95,6 @@ This backlog uses the **PEM Matrix** (Personal, Business, Market) to prioritize 
 - [OWASP API Top 10 crAPI](https://learn.eccouncil.org/course/owasp-api-top-10-crapi?logged=true)
 - [Learn Burp Suite for Advanced Web Penetration Testing](https://learn.eccouncil.org/course/learn-burp-suite-for-advanced-web-penetration-testing)
 - [Red Team Mastery: Advanced Offensive Security](https://learn.eccouncil.org/course/red-team-mastery-advanced-offensive-security?logged=true)
-=======
 - **Place to learning**: Home
 ### 2. [P0] Discover Finland e-learning pathway (WIF)
 - **Link:** [Dio Link course](https://web.dio.me/track/bootcamp-corpay-backend-do-zero-a-pratica)
@@ -153,5 +152,5 @@ https://cursos.alura.com.br/course/devops-conceitos-comandos-scripts-linux-cli
 - Automação de Fluxos: integrando n8n e IA (dead-line 2026/07/01)
 https://cursos.alura.com.br/course/n8n-trabalhando-com-fluxos-de-trabalho-avancados
 
-- Curso CNC
-https:
+- Curso English for IT
+https://www.netacad.com/pt/launch?id=1c91fa6b-3459-45ab-ab8d-e2ed5213e35a&tab=curriculum&view=8911f80d-c748-5b42-85da-d35da0af97a5
