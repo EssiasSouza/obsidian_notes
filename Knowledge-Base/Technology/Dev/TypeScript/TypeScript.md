@@ -12,3 +12,9 @@ Related: [[Java Script]]
 # TypeScript
 
 https://typescriptlang.org/
+
+
+### Transpile 
+
+Translate and compile
+
