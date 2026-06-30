@@ -176,26 +176,6 @@ spec:
             namespace: external-secrets
 ```
 
-```
-apiVersion: external-secrets.io/v1beta1
-
-kind: ExternalSecret
-
-metadata:
-  name: ${{ env.secret_name }}
-  namespace: ${{ env.namespace }}
-spec:
-  refreshInterval: 5m
-  secretStoreRef:
-    name: aws-secrets-manager
-    kind: ClusterSecretStore
-  target:
-    name: ${{ env.secret_name }}
-  dataFrom:
-    - extract:
-        key: ${{ env.cluster }}/${{ env.namespace }}/${{ env.secret_name }}
-```
-
 ---
 
 # 5. Apply ClusterSecretStore
