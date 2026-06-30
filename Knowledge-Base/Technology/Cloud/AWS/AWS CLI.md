@@ -10,31 +10,116 @@ Related: [[Cloud Computing]]
 
 ---
 
-# AWS CLI Quick Start for Beginners
+# Prerequisites
 
-This guide covers the most common AWS CLI commands for beginners.
+Before using the AWS CLI, make sure it is installed.
 
-## Check who is logged in
-
-Display the current AWS identity.
+Check your installation:
 
 ```bash
-aws sts get-caller-identity
+aws --version
 ```
 
-Example output:
+Example:
 
-```json
-{
-  "UserId": "AIDAXXXXXXXXXXXXX",
-  "Account": "123456789012",
-  "Arn": "arn:aws:iam::123456789012:user/john"
-}
+```text
+aws-cli/2.27.0 Python/3.13.0 Windows/11 exe/x86_64
 ```
 
-## List configured profiles
+---
 
-Show all AWS CLI profiles configured on your computer.
+# Configure your first AWS account
+
+If this is your first time using the AWS CLI, run:
+
+```bash
+aws configure
+```
+
+You will be prompted for:
+
+* AWS Access Key ID
+* AWS Secret Access Key
+* Default AWS Region (for example: `us-east-1`)
+* Default output format (`json`, `yaml`, or `text`)
+
+Example:
+
+```text
+AWS Access Key ID [None]: AKIA...
+AWS Secret Access Key [None]: ****************
+Default region name [None]: us-east-1
+Default output format [None]: json
+```
+
+This creates the **default profile**.
+
+---
+
+# Create additional AWS profiles
+
+If you work with multiple AWS accounts, create a named profile.
+
+Example:
+
+```bash
+aws configure --profile development
+```
+
+Or:
+
+```bash
+aws configure --profile production
+```
+
+Repeat the process for every AWS account you need.
+
+Example:
+
+```text
+default
+development
+production
+sandbox
+```
+
+---
+
+# Authenticate using AWS IAM Identity Center (AWS SSO)
+
+If your organization uses AWS IAM Identity Center (formerly AWS SSO), configure a profile with:
+
+```bash
+aws configure sso
+```
+
+You will be asked for information such as:
+
+* SSO Start URL
+* SSO Region
+* AWS Account
+* IAM Role
+* Profile name
+
+After the profile is created, authenticate by running:
+
+```bash
+aws sso login --profile development
+```
+
+This opens your browser so you can complete the login.
+
+To log out:
+
+```bash
+aws sso logout
+```
+
+---
+
+# List configured profiles
+
+Display all configured profiles.
 
 ```bash
 aws configure list-profiles
@@ -46,28 +131,55 @@ Example:
 default
 development
 production
+sandbox
 ```
 
-## Switch to another account (profile)
+---
 
-Use a different profile for a single command:
+# Check who is currently authenticated
+
+Display the identity currently being used.
 
 ```bash
-aws s3 ls --profile development
+aws sts get-caller-identity
 ```
 
-Or set the profile for your current terminal session.
+Example:
+
+```json
+{
+  "UserId": "AIDAXXXXXXXXXXXXX",
+  "Account": "123456789012",
+  "Arn": "arn:aws:iam::123456789012:user/john"
+}
+```
+
+If using AWS SSO or AssumeRole, the ARN will indicate the role instead of an IAM user.
+
+---
+
+# Switch between AWS accounts
+
+## Run a single command with another profile
+
+```bash
+aws s3 ls --profile production
+```
+
+---
+
+## Change the active profile for your terminal
 
 ### Linux/macOS
 
 ```bash
-export AWS_PROFILE=development
+export AWS_PROFILE=production
 ```
 
 ### Windows PowerShell
 
 ```powershell
-$env:AWS_PROFILE="development"
+$env:AWS_PROFILE="production"
 ```
 
 Verify the active account:
@@ -76,42 +188,34 @@ Verify the active account:
 aws sts get-caller-identity
 ```
 
-## Check the current configuration
+---
 
-Display where your credentials and region are coming from.
+# Check your current AWS CLI configuration
 
 ```bash
 aws configure list
 ```
 
-## Configure a new profile
+Example:
 
-Create a new AWS CLI profile.
-
-```bash
-aws configure --profile development
+```text
+      Name                    Value             Type    Location
+      ----                    -----             ----    --------
+   profile                default              manual    --profile
+access_key     ****************ABCD shared-credentials-file
+secret_key     ****************WXYZ shared-credentials-file
+    region               us-east-1      config-file
 ```
 
-You will be prompted for:
+---
 
-- Access Key ID
-- Secret Access Key
-- Default Region
-- Output format (json, yaml, or text)
-
-## List S3 buckets
+# View the current region
 
 ```bash
-aws s3 ls
+aws configure get region
 ```
 
-## List EC2 instances
-
-```bash
-aws ec2 describe-instances
-```
-
-## Check the configured region
+Or:
 
 ### Linux/macOS
 
@@ -125,25 +229,51 @@ echo $AWS_REGION
 $env:AWS_REGION
 ```
 
-Or check the CLI configuration:
+---
+
+# List Amazon S3 buckets
 
 ```bash
-aws configure get region
+aws s3 ls
 ```
 
-## View the AWS CLI version
+---
+
+# List EC2 instances
+
+```bash
+aws ec2 describe-instances
+```
+
+---
+
+# List IAM users
+
+Requires appropriate permissions.
+
+```bash
+aws iam list-users
+```
+
+---
+
+# List available AWS regions
+
+```bash
+aws ec2 describe-regions
+```
+
+---
+
+# Verify your AWS CLI version
 
 ```bash
 aws --version
 ```
 
-Example:
+---
 
-```text
-aws-cli/2.27.0 Python/3.13.0 Windows/11 exe/x86_64
-```
-
-## Get help
+# Get help
 
 General help:
 
@@ -151,10 +281,10 @@ General help:
 aws help
 ```
 
-Help for a specific service:
+Help for a service:
 
 ```bash
-aws s3 help
+aws ec2 help
 ```
 
 Help for a specific command:
@@ -163,15 +293,48 @@ Help for a specific command:
 aws ec2 describe-instances help
 ```
 
-## Common Beginner Commands
+---
 
-|Task|Command|
-|---|---|
-|Check current identity|`aws sts get-caller-identity`|
-|List profiles|`aws configure list-profiles`|
-|View current configuration|`aws configure list`|
-|Create a new profile|`aws configure --profile <profile-name>`|
-|List S3 buckets|`aws s3 ls`|
-|List EC2 instances|`aws ec2 describe-instances`|
-|Check CLI version|`aws --version`|
-|Get help|`aws help`|
+# Useful File Locations
+
+The AWS CLI stores your configuration in two files.
+
+### Linux/macOS
+
+```text
+~/.aws/config
+~/.aws/credentials
+```
+
+### Windows
+
+```text
+C:\Users\<username>\.aws\config
+C:\Users\<username>\.aws\credentials
+```
+
+---
+
+# Quick Reference
+
+| Task                       | Command                                                    |
+| -------------------------- | ---------------------------------------------------------- |
+| Configure first account    | `aws configure`                                            |
+| Configure another profile  | `aws configure --profile <name>`                           |
+| Configure AWS SSO          | `aws configure sso`                                        |
+| Login with AWS SSO         | `aws sso login --profile <name>`                           |
+| Logout from AWS SSO        | `aws sso logout`                                           |
+| List profiles              | `aws configure list-profiles`                              |
+| Check current identity     | `aws sts get-caller-identity`                              |
+| Use another profile        | `aws <command> --profile <name>`                           |
+| Set active profile         | `export AWS_PROFILE=<name>` or `$env:AWS_PROFILE="<name>"` |
+| Show current configuration | `aws configure list`                                       |
+| Show configured region     | `aws configure get region`                                 |
+| List S3 buckets            | `aws s3 ls`                                                |
+| List EC2 instances         | `aws ec2 describe-instances`                               |
+| List AWS regions           | `aws ec2 describe-regions`                                 |
+| List IAM users             | `aws iam list-users`                                       |
+| Show CLI version           | `aws --version`                                            |
+| Get help                   | `aws help`                                                 |
+
+This guide covers the commands most AWS users interact with during their first days using the AWS CLI, while introducing good practices for managing multiple AWS accounts through profiles.
