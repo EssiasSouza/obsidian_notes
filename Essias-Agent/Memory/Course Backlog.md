@@ -154,3 +154,6 @@ https://cursos.alura.com.br/course/n8n-trabalhando-com-fluxos-de-trabalho-avanca
 
 - Curso English for IT
 https://www.netacad.com/pt/launch?id=1c91fa6b-3459-45ab-ab8d-e2ed5213e35a&tab=curriculum&view=8911f80d-c748-5b42-85da-d35da0af97a5
+
+ - Oracle Courses
+https://mylearn.oracle.com/ou/story/35644-ai-1?filters=Area-AI%20&%20Agentic%20AI
