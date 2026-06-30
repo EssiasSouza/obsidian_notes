@@ -35,18 +35,17 @@ This month also reinforces the transition from isolated infrastructure knowledge
 
 | Focus Area                          | Priority | Goal                                                               |
 | ----------------------------------- | -------- | ------------------------------------------------------------------ |
+| Kubernetes Troubleshooting          | P4       | Build confidence diagnosing failures and failure investigation    |
+| Helm & Consolidation                | P3       | Improve deployment standardization and package management     |
 | AWS Foundations                     | P4       | Build confidence with core AWS services and architecture           |
-| Cloud Networking                    | P4       | Understand networking flow inside cloud environments               |
-| IAM and Security Foundations        | P4       | Understand identity, permissions and access control                |
+| Cloud Networking & IAM              | P4       | Understand traffic flow, access controls, and routing in AWS       |
 | EKS Awareness                       | P3       | Understand managed Kubernetes concepts                             |
 | Kubernetes and AWS Integration      | P3       | Connect platform and cloud concepts                                |
 | Technical English                   | P4       | Improve technical communication consistency                        |
 | Documentation Discipline            | P3       | Continue architecture explanation and technical writing            |
 | GitHub Organization                 | P3       | Continue building technical portfolio                              |
 | Enterprise Architecture Observation | P3       | Observe hybrid and multi-cloud patterns in enterprise environments |
-| Cloud Cost Awareness                | P2       | Start understanding infrastructure cost considerations             |
 | Terraform Familiarity               | P2       | Prepare for upcoming Infrastructure as Code focus                  |
-| Security Awareness                  | P2       | Continue building cloud security mindset                           |
 
 ---
 
@@ -54,14 +53,12 @@ This month also reinforces the transition from isolated infrastructure knowledge
 
 By the end of August 2026, the expected outcomes are:
 
-* Better understanding of AWS architecture fundamentals
-* Increased confidence discussing cloud infrastructure
-* Better understanding of IAM and cloud networking
-* Better understanding of EKS concepts
-* Improved understanding of Kubernetes integration inside cloud environments
-* Improved cloud architectural reasoning
-* Better technical communication consistency
-* Reduced insecurity regarding enterprise cloud ecosystems
+* Increased Kubernetes troubleshooting and failure analysis confidence
+* Better Helm packaging and deployment management capability
+* Better understanding of AWS architecture and core services (VPC, EC2, IAM)
+* Better understanding of cloud networking flow and IAM access models
+* Clear understanding of managed Kubernetes (EKS) and cloud integration concepts
+* Improved cloud architectural reasoning and technical communication consistency
 
 ---
 
@@ -87,10 +84,10 @@ The objective is architectural understanding, not service memorization.
 
 | Week   | Focus Area                                 | Experience (70%)                                                                                                                                                              | Communication (20%)                                                                                                               | Learning (10%)                                                                               |
 | ------ | ------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
-| Week 1 | AWS Core Services                          | Create AWS environments using IAM, EC2, VPC, Subnets, Route Tables and Security Groups. Observe infrastructure relationships and connectivity behavior.                       | Write English explanations describing AWS architecture components and connectivity flow.                                          | Study AWS global infrastructure, shared responsibility model and core service concepts.      |
-| Week 2 | Cloud Networking and IAM                   | Practice routing, NAT, internet access flow, security groups and IAM permissions. Simulate access restrictions and connectivity scenarios.                                    | Explain IAM permission models and VPC traffic flow in English documentation and diagrams.                                         | Study IAM concepts, least privilege principles and AWS networking fundamentals.              |
-| Week 3 | EKS and Kubernetes Integration             | Explore EKS concepts, node groups, cluster integration and container registry usage. Compare local Kind clusters with managed Kubernetes environments.                        | Create technical notes comparing EKS, Kind and OpenShift operational differences.                                                 | Study EKS architecture and Kubernetes cloud integration concepts.                            |
-| Week 4 | Architecture Observation and Consolidation | Analyze enterprise hybrid environments, multi-cloud patterns and cloud integration strategies observed in real-world scenarios. Consolidate AWS and Kubernetes understanding. | Publish architecture summaries and infrastructure explanations in English. Review communication clarity and technical vocabulary. | Review weak cloud concepts identified during the month and consolidate missing fundamentals. |
+| Week 1 | Kubernetes Troubleshooting                 | Simulate CrashLoopBackOff, Pending Pods, image pull failures, DNS failures and node communication issues. Diagnose problems using kubectl logs, describe and events.         | Create troubleshooting reports in English documenting issue analysis and root cause identification.                              | Study troubleshooting methodology and Kubernetes operational best practices.                 |
+| Week 2 | Helm & AWS Core Services                   | Create reusable Helm charts and organize multi-environment deployments locally. Create basic AWS environments using IAM, EC2, VPC, subnets, and security groups.              | Publish Helm structure explanations and AWS core connectivity diagrams in English README files.                                   | Study Helm release management and AWS shared responsibility model.                           |
+| Week 3 | AWS Networking, IAM & EKS                  | Practice VPC routing, NAT gateway configurations, IAM least-privilege policies. Compare EKS cluster configuration with local Kind clusters.                                   | Explain AWS networking paths and IAM permission structures in English documentation.                                              | Study VPC networking, IAM structures, and EKS architecture.                                  |
+| Week 4 | AWS & Kubernetes Integration               | Analyze enterprise cloud architectures, multi-cloud setups, and EKS platform integration strategies. Consolidate AWS and Kubernetes labs.                                    | Publish architecture integration summaries and troubleshooting reflections in English. Review technical vocabulary.              | Review weak areas in cloud and Kubernetes integration concepts.                              |
 
 ---
 
@@ -162,12 +159,11 @@ At the end of August, evaluate:
 
 | Evaluation Point             | Questions                                                                   |
 | ---------------------------- | --------------------------------------------------------------------------- |
-| AWS Confidence               | Do AWS environments feel less intimidating now?                             |
-| Infrastructure Understanding | Do I better understand cloud architecture relationships?                    |
-| IAM Awareness                | Can I understand and explain permission models more clearly?                |
-| Networking Understanding     | Do I better understand cloud traffic flow and connectivity?                 |
-| Kubernetes Integration       | Can I connect Kubernetes concepts with cloud infrastructure more naturally? |
-| Communication                | Am I improving my ability to explain cloud concepts in English?             |
-| Technical Anxiety            | Do I feel less overwhelmed by multi-cloud enterprise environments?          |
+| Kubernetes Troubleshooting   | Can I methodically investigate and resolve cluster failures?                |
+| Helm Competence              | Can I package applications and manage releases using Helm charts?           |
+| AWS Confidence               | Do core AWS services (VPC, EC2, IAM) feel less intimidating now?            |
+| Cloud Networking & IAM       | Do I understand permissions modeling and cloud traffic routing clearly?      |
+| Kubernetes Integration       | Can I connect Kubernetes concepts with managed EKS infrastructure?          |
+| Communication                | Am I improving my ability to explain cloud native architectures in English? |
 
 The results of this review will guide the refinement of September planning.

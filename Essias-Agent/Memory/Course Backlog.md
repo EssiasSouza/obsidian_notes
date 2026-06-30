@@ -11,8 +11,15 @@ This backlog uses the **PEM Matrix** (Personal, Business, Market) to prioritize 
 ---
 ## Active Courses (WIP Limit: 2) - [P0]
 
-### 1. [P0] Discover Finland e-learning pathway (WIF)
+### 1. Oracle Cloud Infrastructure AI Foundations
+- **Link:** [Oracle MyLearn](https://mylearn.oracle.com/ou/course/oracle-cloud-infrastructure-ai-foundations-free/163618)
+- **Status:** Not started.
+- **Duration:** 315 minutes (5.25 hours).
+- **PEM Score:** Personal (Medium - 3/5) | Business (High - 5/5) | Market (High - 4/5).
+- **Action:** Prepare content and labs to teach this course on Alura. Segmented into 3 Sprints. See [[../../PDP/oci-ai-foundations-study-plan.md]].
+- **Place to learning:** Home/Work
 
+### 2. [P0] Discover Finland e-learning pathway (WIF)
 - **Link:** [businessfinland](https://akatemia.keha-keskus.fi/ns/businessfinland)
 - **Status:** 13% completed.
 - **Duration:** 2 hours total.
@@ -20,20 +27,20 @@ This backlog uses the **PEM Matrix** (Personal, Business, Market) to prioritize 
 - **Action:** Block 2 hours in the next 2 business days to finish it. Do not start anything new until the remaining 87% is complete.
 - **Place to learning:** Home
 
-### 2. ArgoCD: automatizando deploy de aplicações
+---
+## On Deck (Immediate Queue)
+
+### ArgoCD: automatizando deploy de aplicações
 - **Link:** [Alura Course](https://cursos.alura.com.br/course/argocd-automatizando-deploy-aplicacoes)
 - **Status:** Not started.
 - **PEM Score:** Personal (High) | Business (High) | Market (High).
-- **Action:** Core DevOps. Urgent (Deadline 2026/07/01). Execute immediately.
-
----
-
-## On Deck (Immediate Queue)
+- **Action:** Core DevOps. Urgent (Deadline 2026/07/01). Starts as soon as WIF finishes.
 
 ### Kubernetes com microsserviços: subindo e gerenciando uma aplicação
 - **Link:** [Alura Course](https://cursos.alura.com.br/course/kubernetes-microsservicos-subindo-gerenciando-aplicacao)
 - **Status:** Not started.
 - **Action:** Core DevOps. Urgent (Deadline 2026/07/01). Starts as soon as WIF or ArgoCD finishes.
+
 
 ---
 
