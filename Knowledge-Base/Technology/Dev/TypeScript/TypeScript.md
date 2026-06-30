@@ -1,4 +1,4 @@
-Source: #source/internet_resources 
+Source: #source/DIO
 Project: #project/devops 
 Areas: #area/work
 Subject: #subject/java 
@@ -11,9 +11,11 @@ Related: [[Java Script]]
 
 # TypeScript
 
-https://typescriptlang.org/
+[https://www.typescriptlang.org](https://www.typescriptlang.org/)
 
-https://typescriptlang.org/cheatsheets
+[https://www.typescriptlang.org/cheatsheets](https://www.typescriptlang.org/cheatsheets)
+
+[TypeScript Playground]([https://www.typescriptlang.org/play](https://www.typescriptlang.org/play))
 
 TypeScritpt is a superset that is used over JavaScript
 ### Transpile 
@@ -107,4 +109,10 @@ At the moment of this study, tsup is the most used to transpile in order nmp tre
 
 ```bash
 npm i tsup -D # - D to rund as dependencies but only for devel environment.
+```
+
+Initializing a project with a template of typeScript
+
+```bash
+npm init -y typescript -D # - D to rund as dependencies but only for devel environment.
 ```

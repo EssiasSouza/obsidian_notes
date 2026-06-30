@@ -1,4 +1,4 @@
-Source: #source/internet_resources 
+Source: #source/DIO
 Project: #project/full_stack
 Areas: #area/work
 Subject: #subject/run_environments
@@ -7,6 +7,7 @@ Learning priority: #priority/P1
 Status: #status/learning 
 Related: [[Java Script]]
 [[Node.js]]
+[[TypeScript]]
 
 ---
 # # Managing Environment Variables in Modern Node.js
