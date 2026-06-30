@@ -1,118 +1,174 @@
 Source: #source/DIO
-Project: #project/devops 
+Project: #project/devops
 Areas: #area/work
-Subject: #subject/java 
+Subject: #subject/java
 Type: #type/learning
-Learning priority: #priority/P2 
-Status: #status/learning 
-Related: [[Java Script]]
+Learning priority: #priority/P2
+Status: #status/learning
+Related: [[JavaScript]]
+[[Node.js]]
 
 ---
 
 # TypeScript
 
-[https://www.typescriptlang.org](https://www.typescriptlang.org/)
+Official website
 
-[https://www.typescriptlang.org/cheatsheets](https://www.typescriptlang.org/cheatsheets)
+https://www.typescriptlang.org
 
-[TypeScript Playground]([https://www.typescriptlang.org/play](https://www.typescriptlang.org/play))
+Cheat Sheets
 
-TypeScritpt is a superset that is used over JavaScript
-### Transpile 
+https://www.typescriptlang.org/cheatsheets
 
-Translate and compile
+Playground
 
-### Installing
+https://www.typescriptlang.org/play
+
+## What is TypeScript?
+
+TypeScript is a superset of JavaScript that adds static typing and additional language features. It is transpiled into plain JavaScript before execution.
+
+## Transpilation
+
+Transpilation is the process of translating TypeScript code into JavaScript.
+
+## Installation
+
+Install TypeScript as a development dependency.
 
 ```bash
 npm install -D typescript
-```
+````
 
-The files need to be with extension .ts.
+TypeScript source files use the `.ts` extension.
 
 Example:
 
-```bash
-script.ts
+```text
+src/index.ts
 ```
 
+## Transpile a file
 
-Do transpile
+Compile a single TypeScript file.
 
 ```bash
-npx tsc path/to/script.ts
+npx tsc src/index.ts
 ```
 
-To `transpile` automatically maybe used the `package.json` scripts to call
+## Automating transpilation
+
+You can automate compilation using npm scripts.
 
 ```json
-...{
-	"scripts": {
-		"dist": "npx tsc src/index.ts",
-		"start:dev": npm run dist && node src/index.js
-	}
+{
+  "scripts": {
+    "build": "tsc",
+    "dev": "npm run build && node dist/index.js"
+  }
 }
 ```
 
-#### Tsconfig
+## tsconfig.json
 
-[TS Config Documentation](https://typescriptlang.or/pt/tsconfigg)
+Documentation
 
-Creating `tsconfig.json` in the project root folder.
+[https://www.typescriptlang.org/tsconfig](https://www.typescriptlang.org/tsconfig)
+
+Create the configuration file.
 
 ```bash
 npx tsc --init
 ```
 
-Configuring tsconfig.json
+Example configuration:
 
 ```json
-
 {
-	"compilerOpitions":{
-		"target": "ES6", //Ecma script 6
-		"module": "CommonJS",
-		"outDir": "./dist", //to save the transpiled files.
-		"strict": true,
-		"esModuleInterop": true,
-	}
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS",
+    "outDir": "./dist",
+    "strict": true,
+    "esModuleInterop": true
+  }
 }
 ```
 
-# Became node.js to run ts
+### Common compiler options
 
-Install tsx
+| Option          | Description                                  |
+| --------------- | -------------------------------------------- |
+| target          | JavaScript version to generate               |
+| module          | Module system (CommonJS, ESNext, etc.)       |
+| outDir          | Output directory for compiled files          |
+| strict          | Enables all strict type checking             |
+| esModuleInterop | Improves compatibility with CommonJS modules |
 
-```bash
-npm i tsx -D # - D to rund as dependencies but only for devel environment.
-```
+# Running TypeScript without compiling
 
-Running:
+Instead of manually compiling with `tsc`, you can use **tsx**, which executes TypeScript files directly.
 
-```bash
-tsx src/<script>.ts
-
-# or
-
-tsx watch src/<script>.ts
-```
-
-### NPM Trends
-
-[npmtrends.com](https://npmtrends.com)
-
-Tool to check trends used in npm.
-
-### Tsup
-
-At the moment of this study, tsup is the most used to transpile in order nmp trends.
+Install:
 
 ```bash
-npm i tsup -D # - D to rund as dependencies but only for devel environment.
+npm install -D tsx
 ```
 
-Initializing a project with a template of typeScript
+Run a file:
 
 ```bash
-npm init -y typescript -D # - D to rund as dependencies but only for devel environment.
+tsx src/index.ts
 ```
+
+Watch mode:
+
+```bash
+tsx watch src/index.ts
+```
+
+This is the most common choice for local development.
+
+# npm Trends
+
+[https://npmtrends.com](https://npmtrends.com)
+
+Useful for comparing package popularity and adoption across the npm ecosystem.
+
+# tsup
+
+**tsup** is a fast bundler for TypeScript projects built on top of **esbuild**. It is widely used for building libraries and CLI applications.
+
+Install:
+
+```bash
+npm install -D tsup
+```
+
+Example build:
+
+```bash
+tsup src/index.ts --format esm,cjs --dts
+```
+
+## Creating a new TypeScript project
+
+Initialize a Node.js project:
+
+```bash
+npm init -y
+```
+
+Install TypeScript:
+
+```bash
+npm install -D typescript
+```
+
+Generate the configuration:
+
+```bash
+npx tsc --init
+```
+
+Alternatively, you can use a starter template or a framework such as Vite, NestJS, or Next.js when appropriate.
