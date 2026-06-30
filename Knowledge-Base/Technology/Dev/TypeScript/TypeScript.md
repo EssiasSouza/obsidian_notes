@@ -54,7 +54,7 @@ To `transpile` automatically maybe used the `package.json` scripts to call
 
 #### Tsconfig
 
-[TS Config Documentation](https://)
+[TS Config Documentation](https://typescriptlang.or/pt/tsconfigg)
 
 Creating `tsconfig.json` in the project root folder.
 
@@ -93,4 +93,18 @@ tsx src/<script>.ts
 # or
 
 tsx watch src/<script>.ts
+```
+
+### NPM Trends
+
+[npmtrends.com](https://npmtrends.com)
+
+Tool to check trends used in npm.
+
+### Tsup
+
+At the moment of this study, tsup is the most used to transpile in order nmp trends.
+
+```bash
+npm i tsup -D # - D to rund as dependencies but only for devel environment.
 ```
