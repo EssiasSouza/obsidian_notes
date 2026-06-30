@@ -1,3 +1,14 @@
+Source: #source/internet_resources
+Project: #project/devops 
+Areas: #area/work
+Subject: #subject/git
+Type: #type/idea
+Learning priority: #priority/P1 
+Status: #status/learning 
+Related: [[Knowledge-Base/Technology/CI-CD/CI-CD|CI-CD]]
+Tutorial: [[Git - GitHub]]
+
+---
 # Git Cheat Sheet for Beginners
 
 This guide contains only the most common Git commands for beginners.
@@ -57,11 +68,9 @@ git push
 Depending on your configuration, authentication may use:
 
 - Personal Access Token (PAT)
-    
 - SSH Key
-    
 - Git Credential Manager
-    
+
 
 ---
 
@@ -262,13 +271,9 @@ git status
 This command shows:
 
 - Current branch
-    
 - Modified files
-    
 - Staged files
-    
 - Untracked files
-    
 
 ---
 
@@ -306,5 +311,3 @@ git push
 |Push changes|`git push`|
 |View remotes|`git remote -v`|
 |Discard local changes|`git restore .`|
-
-> **Note:** Unlike the AWS CLI, Git does not provide a command to display "who is logged in." The closest equivalent is checking the configured username and email using `git config --get user.name` and `git config --get user.email`. Authentication with services such as GitHub, GitLab, or Azure DevOps occurs only when you interact with a remote repository.
