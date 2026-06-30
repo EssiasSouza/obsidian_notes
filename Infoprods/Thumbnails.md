@@ -1,4 +1,4 @@
-# Prompt Mestre para Geração de Thumbnails
+# Master Prompt to Generate Thumbnails
 
 You are an award-winning YouTube thumbnail designer specialized in high CTR technology channels.
 
