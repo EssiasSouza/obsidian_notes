@@ -17,11 +17,7 @@ Package managers
 [Yarn](https://yarnpkg.com/cli/node) Is not native
 [pNPM](https://pnpm.io/installation) Is not native
 [75 packages](https://firebearstudio.com/blog/node-js-command-line-apps-utilities.html)
-<<<<<<< HEAD
 [npm scritps documentation](https://docs.npmjs.com/cli/v10/using-npm/scripts)
-=======
->>>>>>> 0ad59766c194d94f41457fb5eb2d59d6181d2e33
-
 
 Node.js is a run environment to run [[Java Script]] applications like [[Python]] do. There is possible to use Java Script to create web applications, and other applications without using a browser.
 
