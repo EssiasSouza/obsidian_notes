@@ -1,46 +1,49 @@
 # Essias Alves Souza
-Platform Engineer | Kubernetes & OpenShift Administrator
+Platform Engineer | Kubernetes Administrator
 Brazil | contato@essias.com.br | LinkedIn: linkedin.com/in/essias | GitHub: github.com/essiassouza
 
 ## Professional Summary
-Senior Platform Engineer and DevOps specialist with extensive hands-on experience in Linux administration, containerized environments, and cloud infrastructure (AWS, Azure, GCP, OCI). Highly proficient in Kubernetes administration, cluster security, networking, and high availability management. Strong background in infrastructure automation using Terraform, Bash, and Python, alongside robust CI/CD pipeline implementations. Adept at maintaining mission-critical platforms, executing performance tuning, capacity planning, and ensuring disaster recovery compliance. Proven ability to troubleshoot complex platform and infrastructure issues using advanced monitoring tools like Zabbix and Grafana.
+Senior Platform and Infrastructure Engineer with hands-on experience in Linux cluster administration, cloud environments (AWS, GCP, OCI, Azure), and Kubernetes ecosystems. Proven track record in secrets management, platform automation, and high-availability infrastructure. Experienced in architecting integrations between cloud-native components including External Secrets Operator, GCP Secret Manager, and enterprise credential vaults. Strong troubleshooting background in large-scale, mission-critical environments combined with Python and Bash scripting for operational automation.
 
 ## Professional Experience
 
 **Senior Infrastructure & Integration Engineer | Sem Parar Corpay**
 *Sep 2022 - Present*
-* Administration of high-availability Linux clusters and integration environments processing ~2M files/day for ~4,000 partners.
-* Orchestration and support of containerized applications and infrastructure automation.
-* Development of automation scripts (Python, Bash, PowerShell) and CI/CD pipelines, significantly reducing manual operational tasks (from 20 to 2 minutes per execution).
-* Orchestrated secret management automation by migrating and syncing credentials between Google Cloud Secret Manager (GCP) and Delinea Secret Server, reinforcing platform security and compliance.
-* Implementation of self-healing mechanisms and resilience for critical middleware and platform environments.
-* Troubleshooting complex platform, application, and infrastructure issues with deep log analysis.
-* Management of cluster security, advanced routing, message handling, and disaster recovery.
-* Integration of comprehensive monitoring and observability using Zabbix and Grafana (Prometheus ecosystem aligned).
-* Collaboration with development squads in Agile (SCRUM) environments using Jira.
-* ITIL-based incident, capacity planning, and problem management (ServiceNow).
+* Administration of Linux high-availability clusters supporting environments processing ~2M files/day for ~4,000 partners.
+* Designed and implemented Kubernetes secrets management integrations using External Secrets Operator (ESO) with GKE and AWS Secrets Manager, applying SecretStore, ClusterSecretStore, and ExternalSecret patterns.
+* Developed Python automation to migrate and synchronize credentials from Google Cloud Secret Manager to Delinea Secret Server via REST API, reducing manual effort and improving compliance.
+* Implemented container security practices including OCI image management, Artifact Registry, and supply chain security controls on GKE Autopilot environments.
+* Development of automation scripts (Python, Bash, PowerShell) reducing repetitive operational tasks from 20 to 2 minutes per execution.
+* Creation of self-healing and resilience mechanisms for critical platform environments.
+* Complex incident and crisis management with deep Linux log analysis and troubleshooting.
+* Monitoring and observability integration using Zabbix and Grafana.
+* ITIL-based incident, problem and change management (ServiceNow).
+* Agile collaboration in SCRUM squads using Jira.
 
 **Infrastructure Analyst | Magnum Indústria da Amazônia SA**
 *Aug 2012 - Aug 2022*
 * Full lifecycle administration of Linux and Windows physical and virtual servers.
-* Management of enterprise infrastructure services including complex networking, security (VPN, DNS, DHCP, Proxy), and backups.
-* Design and operation of virtualization platforms (VMware, Hyper-V) preparing foundations for containerization.
-* Performance tuning, capacity planning, and continuous incident resolution in highly demanding on-premises environments.
+* Management of enterprise networking (VPN, DNS, DHCP, Proxy, Firewall) and infrastructure services.
+* Design and operation of VMware and Hyper-V virtualization platforms.
+* Disaster recovery planning, backup management, and incident resolution in on-premises environments.
+* Performance tuning and capacity planning for production workloads.
 
 **Senior Support Analyst | Nestlé Brazil**
 *Feb 2009 - Sep 2011*
 * Access and security management via IBM Tivoli Identity Manager and Active Directory.
-* Multiregional enterprise support across Latin America, enforcing compliance with security standards.
-* Operational support and integration with critical platforms (SAP, IBM AS/400).
+* Multiregional enterprise support across Latin America.
+* Operational support and integration with SAP and IBM AS/400.
 * Incident management using HP Service Manager.
 
 ## Core Technical Skills
-* **Container Orchestration & Platforms:** Kubernetes, Docker, OpenShift Ecosystem (Roadmap & Concepts)
-* **Cloud & Virtualization:** AWS, OCI, Azure, GCP, VMware, Hyper-V
-* **Infrastructure as Code & Automation:** Terraform, Python, Bash, CI/CD, GitOps
-* **Systems Administration:** Linux (Red Hat, Ubuntu, Debian), RBAC, Storage, Networking
-* **Monitoring & Observability:** Prometheus (Conceptual/Ecosystem), Grafana, Zabbix
-* **Networking & Security:** VPN, Firewall, WAF, DNS, Ingress Controllers
+* **Container Orchestration:** Kubernetes (GKE), External Secrets Operator, Helm, RBAC, Ingress, Namespaces, Persistent Volumes
+* **Secrets Management:** GCP Secret Manager, AWS Secrets Manager, Delinea Secret Server, ESO
+* **Cloud Platforms:** AWS, GCP, OCI, Azure
+* **Systems Administration:** Linux (Red Hat, Ubuntu, Debian), Windows Server, Active Directory
+* **Automation & Scripting:** Python, Bash, PowerShell, REST API integration, RPA
+* **Monitoring & Observability:** Zabbix, Grafana
+* **Networking & Security:** VPN, Firewall, WAF, DNS, DHCP, Proxy, container supply chain security
+* **ITSM & Methodologies:** ITIL, ServiceNow, Agile SCRUM
 
 ## Education
 * MBA in IT Project Management

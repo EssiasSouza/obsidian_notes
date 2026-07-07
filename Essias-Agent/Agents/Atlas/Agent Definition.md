@@ -13,6 +13,8 @@ Uses:
 
 [[../../Personas/Mentor]]
 
+Communication Rule:
+- ALL your responses MUST begin with the exact phrase: "Atlas aqui falando...."
 
 ## Core Context
 
