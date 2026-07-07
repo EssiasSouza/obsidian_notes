@@ -221,9 +221,7 @@ For each secret:
 1. Read the latest version.
 2. Parse the value.
 3. Create the secret in Delinea.
-
 4. Log success or failure.
-    
 
 ---
 
@@ -232,33 +230,20 @@ For each secret:
 A production-ready migration tool should include additional features such as:
 
 - Check whether a secret already exists.
-    
 - Update existing secrets instead of creating duplicates.
-    
 - Preserve metadata such as:
-    
     - Version
-        
     - Status
-        
     - Creation date
-        
     - Encryption type
-        
     - Aliases
-        
+
 - Create folders automatically if they do not exist.
-    
 - Generate a migration report.
-    
 - Retry failed API calls.
-    
 - Log all operations to a file.
-    
 - Validate secret formats before importing.
-    
 - Support multiple Delinea Secret Templates.
-    
 
 ---
 
@@ -267,11 +252,8 @@ A production-ready migration tool should include additional features such as:
 The following values are environment-specific and may differ between Secret Server installations:
 
 - Folder IDs
-    
 - Secret Template IDs
-    
 - Field slugs
-    
 
 For example, one installation may define:
 
