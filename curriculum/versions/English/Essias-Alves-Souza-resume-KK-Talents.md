@@ -13,7 +13,7 @@ Senior Platform and Infrastructure Engineer with hands-on experience in Linux cl
 * Designed and implemented Kubernetes secrets management integrations using External Secrets Operator (ESO) with GKE and AWS Secrets Manager, applying SecretStore, ClusterSecretStore, and ExternalSecret patterns.
 * Developed Python automation to migrate and synchronize credentials from Google Cloud Secret Manager to Delinea Secret Server via REST API, reducing manual effort and improving compliance.
 * Implemented container security practices including OCI image management, Artifact Registry, and supply chain security controls on GKE Autopilot environments.
-* Development of automation scripts (Python, Bash, PowerShell) reducing repetitive operational tasks from 20 to 2 minutes per execution.
+* Development of automation scripts (Python, Bash, PowerShell) reducing repetitive operational tasks 10% of total time per execution.
 * Creation of self-healing and resilience mechanisms for critical platform environments.
 * Complex incident and crisis management with deep Linux log analysis and troubleshooting.
 * Monitoring and observability integration using Zabbix and Grafana.
