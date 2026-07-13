@@ -1,4 +1,13 @@
-Vou estruturar esse tutorial como algo que realmente possa servir de template para qualquer agente de IA. A ideia é que, depois de ler esse material, você consiga criar um agente para finanças, direito, RH, DevOps, saúde, música ou qualquer outro domínio apenas trocando o conhecimento da área.
+Source: #source/internet_resources 
+Project: #project/artificial_intelligence
+Areas: #area/work
+Subject: #subect/agentic_ai
+Type: #type/learning 
+Learning priority: #priority/P2 
+Status: #status/to_learning
+Related: [[AI]]
+
+---
 
 # Tutorial: Building AI Agents from Scratch with ChatGPT
 
@@ -496,4 +505,16 @@ ElectricianAgent/
 └── README.md
 ```
 
-Essa estrutura mais robusta segue princípios de engenharia de software, separando responsabilidades, facilitando manutenção, testes e evolução do agente. O mesmo padrão pode ser reutilizado para praticamente qualquer domínio, bastando substituir o conteúdo da pasta `knowledge`, adaptar os `workflows` e ajustar o `system prompt` para refletir a especialidade desejada.
+This more robust structure follows software engineering principles by separating responsibilities, thereby facilitating the agent's maintenance, testing, and evolution. The same pattern can be reused for virtually any domain simply by replacing the contents of the `knowledge` folder, adapting the `workflows`, and adjusting the `system prompt` to reflect the desired specialization.
+
+If you need work with different harness you can follow this.
+
+|Ferramenta|Arquivo recomendado|
+|---|---|
+|Codex CLI|✅ `AGENTS.md`|
+|Claude Code|✅ `CLAUDE.md`|
+|Cursor|✅ `.cursor/rules/*.mdc`|
+|OpenHands|Configuração via SDK/UI|
+|OpenClaw|✅ `AGENTS.md`|
+|Antigravity|✅ `GEMINI.md`|
+|OpenAI Agents SDK|Prompt definido em código|
