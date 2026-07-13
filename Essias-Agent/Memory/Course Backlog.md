@@ -164,3 +164,4 @@ https://www.netacad.com/pt/launch?id=1c91fa6b-3459-45ab-ab8d-e2ed5213e35a&tab=cu
 
  - Oracle Courses
 https://mylearn.oracle.com/ou/story/35644-ai-1?filters=Area-AI%20&%20Agentic%20AI
+

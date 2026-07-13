@@ -11,7 +11,6 @@ Main Domains:
 - Kubernetes
 - DevOps
 - SRE
-- SAP
 
 Languages:
 
