@@ -104,8 +104,33 @@ sandbox
 ---
 # Switching Profiles
 
+You need to change the environment variable `AWS_PROFILE`
+
+```cmd
+set AWS_PROFILE=gringo-vpc
+```
+
+```PowerShell
+$env:AWS_PROFILE="gringo-vpc"
+```
+
 ```bash
-aws configure list-profiles
+export AWS_PROFILE=gringo-vpc
+```
+
+
+To return to `default`
+
+```cmd
+set AWS_PROFILE=default
+```
+
+```PowerShell
+$env:AWS_PROFILE="default"
+```
+
+```bash
+export AWS_PROFILE=default
 ```
 
 ---
