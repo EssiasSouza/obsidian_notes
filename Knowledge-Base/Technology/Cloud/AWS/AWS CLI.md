@@ -84,6 +84,31 @@ sandbox
 ```
 
 ---
+# List configured profiles
+
+Display all configured profiles.
+
+```bash
+aws configure list-profiles
+```
+
+Example:
+
+```text
+default
+development
+production
+sandbox
+```
+
+---
+# Switching Profiles
+
+```bash
+aws configure list-profiles
+```
+
+---
 
 # Authenticate using AWS IAM Identity Center (AWS SSO)
 
@@ -117,24 +142,6 @@ aws sso logout
 
 ---
 
-# List configured profiles
-
-Display all configured profiles.
-
-```bash
-aws configure list-profiles
-```
-
-Example:
-
-```text
-default
-development
-production
-sandbox
-```
-
----
 
 # Check who is currently authenticated
 
