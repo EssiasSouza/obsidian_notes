@@ -107,15 +107,15 @@ sandbox
 You need to change the environment variable `AWS_PROFILE`
 
 ```cmd
-set AWS_PROFILE=gringo-vpc
+set AWS_PROFILE=your-profile
 ```
 
 ```PowerShell
-$env:AWS_PROFILE="gringo-vpc"
+$env:AWS_PROFILE="your-profile"
 ```
 
 ```bash
-export AWS_PROFILE=gringo-vpc
+export AWS_PROFILE=your-profile
 ```
 
 
