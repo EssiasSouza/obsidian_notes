@@ -1,0 +1,248 @@
+{
+  "main": {
+    "id": "ca12e53682fb6957",
+    "type": "split",
+    "children": [
+      {
+        "id": "d7bafe0f69c60146",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "757268248d511c3f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/4.6-Customize LLMs with your data.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "4.6-Customize LLMs with your data"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c3be3e3347ed3a45",
+    "type": "split",
+    "children": [
+      {
+        "id": "4d6f425a2cae44b4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2799abf03005dede",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "f83bab9c4c085a7d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "c0f211b544bd7130",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 578.5
+  },
+  "right": {
+    "id": "c99476088aeb1986",
+    "type": "split",
+    "children": [
+      {
+        "id": "4ee4ad2627a5779b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "678d069704d0aaaa",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Untitled.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Untitled"
+            }
+          },
+          {
+            "id": "090d59a3d47725f7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Untitled.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Untitled"
+            }
+          },
+          {
+            "id": "15ff959654530ec8",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "a7de04d26adc314e",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "3fa7be7a42bf2060",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Untitled.canvas",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Untitled"
+            }
+          },
+          {
+            "id": "8703893fa9d9a6f7",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "calendar"
+            }
+          },
+          {
+            "id": "e6f7edfe8a86978e",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 6
+      }
+    ],
+    "direction": "horizontal",
+    "width": 302.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "obsidian-kanban:Create new board": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "757268248d511c3f",
+  "lastOpenFiles": [
+    "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/4.5-Prompt Engineering.md",
+    "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/4.4-Transformers Part-2.md",
+    "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/4.3-Transformers Part-1.md",
+    "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/4.2-Introduction to Large Language Models.md",
+    "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/4.1-Introduction to Generative AI.md",
+    "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/3.3-Deep Learning Models - CNN.md",
+    "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/3.2-Deep Learning Models-Sequence Models.md",
+    "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/3.1-Introduction to Deep Learning.md",
+    "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/1.3-AI vs ML vs DL.md",
+    "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/1.2-AI - Tasks and Data.md",
+    "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/1.1-Introduction to AI.md",
+    "Knowledge-Base/Technology/Cyber Security/CIS Benchmarks.md",
+    "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/4.6-Customize LLMs with your data.md",
+    "Knowledge-Base/Technology/AI/OCI AI Foundations Associate",
+    "Knowledge-Base/Technology/Untitled.md",
+    "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/OCI AI Foundations.md",
+    "Essias-Agent/Memory/Current Goals.md",
+    "Essias-Agent/Stories/Dailies - Weeklies.md",
+    "Essias-Agent/Memory/Difficulties.md",
+    "Essias-Agent/Essias.md",
+    "Essias-Agent/Stories/Most Challenging Incident.md",
+    "Essias-Agent/Career/Technical Opportunities.md",
+    "Knowledge-Base/Technology/AI/AI.md",
+    "Knowledge-Base/Tutorials/How To Create An AI Agent.md",
+    "Essias-Agent/Memory/Difficulties and deficiencies.md",
+    "Knowledge-Base/Technology/AI/AWS - AI.md",
+    "Essias-Agent/Memory/Course Backlog.md",
+    "curriculum/versions/Spanish",
+    "curriculum/versions/Portuguese",
+    "curriculum/versions/French",
+    "curriculum/versions/English",
+    "curriculum/versions",
+    "curriculum/cover-letter",
+    "curriculum",
+    "Knowledge-Base/Technology/Integration",
+    "Knowledge-Base/Technology/ITSM",
+    "Knowledge-Base/hard-skills.canvas"
+  ]
+}
