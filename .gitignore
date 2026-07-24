@@ -2,4 +2,4 @@
 .git
 **/*).json
 **/*).css
-desktop.ini
+/desktop.ini
