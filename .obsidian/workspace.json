@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d7bafe0f69c60146",
+        "id": "c93e35daad054afb",
         "type": "tabs",
         "children": [
           {
-            "id": "757268248d511c3f",
+            "id": "c1e2fceb7d6a67ac",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/4.6-Customize LLMs with your data.md",
+                "file": "Knowledge-Base/Tutorials/ESO - External Secrets Operator Setup (ClusterSecretStore).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4.6-Customize LLMs with your data"
+              "title": "ESO - External Secrets Operator Setup (ClusterSecretStore)"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 578.5
+    "width": 300
   },
   "right": {
     "id": "c99476088aeb1986",
@@ -205,44 +205,44 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "757268248d511c3f",
+  "active": "c1e2fceb7d6a67ac",
   "lastOpenFiles": [
-    "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/4.5-Prompt Engineering.md",
-    "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/4.4-Transformers Part-2.md",
-    "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/4.3-Transformers Part-1.md",
-    "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/4.2-Introduction to Large Language Models.md",
-    "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/4.1-Introduction to Generative AI.md",
+    "Knowledge-Base/Technology/Cloud/Kubernetes/External Secret Operator.md",
+    "Knowledge-Base/Technology/Cloud/AWS/AWS CLI.md",
     "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/3.3-Deep Learning Models - CNN.md",
     "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/3.2-Deep Learning Models-Sequence Models.md",
     "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/3.1-Introduction to Deep Learning.md",
     "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/1.3-AI vs ML vs DL.md",
     "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/1.2-AI - Tasks and Data.md",
     "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/1.1-Introduction to AI.md",
+    "Knowledge-Base/Technology/Cyber Security/OWASP-CIS.md",
+    "Essias-Agent/Stories/Dailies - Weeklies.md",
+    "Essias-Agent/Experiences/Carrer/Why I Moved From Support To Cloud.md",
+    "Essias-Agent/PROFILE.md",
     "Knowledge-Base/Technology/Cyber Security/CIS Benchmarks.md",
-    "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/4.6-Customize LLMs with your data.md",
-    "Knowledge-Base/Technology/AI/OCI AI Foundations Associate",
+    "Knowledge-Base/Tutorials/PCI - System components are configured and managed securely.md",
+    "Knowledge-Base/Technology/Cloud/GCP/Cloud SQL.md",
     "Knowledge-Base/Technology/Untitled.md",
     "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/OCI AI Foundations.md",
-    "Essias-Agent/Memory/Current Goals.md",
-    "Essias-Agent/Stories/Dailies - Weeklies.md",
-    "Essias-Agent/Memory/Difficulties.md",
-    "Essias-Agent/Essias.md",
-    "Essias-Agent/Stories/Most Challenging Incident.md",
+    "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/4.6-Customize LLMs with your data.md",
+    "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/4.5-Prompt Engineering.md",
+    "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/4.4-Transformers Part-2.md",
+    "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/4.3-Transformers Part-1.md",
+    "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/4.2-Introduction to Large Language Models.md",
+    "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/4.1-Introduction to Generative AI.md",
+    "Knowledge-Base/Technology/AI/OCI AI Foundations Associate",
     "Essias-Agent/Career/Technical Opportunities.md",
-    "Knowledge-Base/Technology/AI/AI.md",
-    "Knowledge-Base/Tutorials/How To Create An AI Agent.md",
-    "Essias-Agent/Memory/Difficulties and deficiencies.md",
-    "Knowledge-Base/Technology/AI/AWS - AI.md",
-    "Essias-Agent/Memory/Course Backlog.md",
+    "Knowledge-Base/Technology/AI/OCI AI Foundations.md",
+    "Essias-Agent/Memory/Difficulties.md",
+    "Knowledge-Base/Technology/ITSM",
+    "Knowledge-Base/Technology/Integration",
+    "Essias-Agent/Skills/Career",
     "curriculum/versions/Spanish",
     "curriculum/versions/Portuguese",
     "curriculum/versions/French",
     "curriculum/versions/English",
     "curriculum/versions",
     "curriculum/cover-letter",
-    "curriculum",
-    "Knowledge-Base/Technology/Integration",
-    "Knowledge-Base/Technology/ITSM",
     "Knowledge-Base/hard-skills.canvas"
   ]
 }
