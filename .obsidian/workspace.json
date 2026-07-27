@@ -35,7 +35,8 @@
               "title": "PCI-DSS-GCP-GKE"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -219,10 +220,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c1e2fceb7d6a67ac",
+  "active": "5871da8a8bb5f43e",
   "lastOpenFiles": [
-    "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/PCI-DSS-GCP-GKE.md",
     "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/02-Log Sinks.md",
+    "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/PCI-DSS-GCP-GKE.md",
     "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/01-Cloud Audit Logs.md",
     "Templates/Ai Template.md",
     "Knowledge-Base/Technology/Cyber Security/CIS Benchmarks.md",
