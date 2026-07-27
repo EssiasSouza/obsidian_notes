@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/05-VPC Flow Logs.md",
+                "file": "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/07-Ops Agent.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "05-VPC Flow Logs"
+              "title": "07-Ops Agent"
             }
           }
         ],
@@ -222,6 +222,8 @@
   },
   "active": "15719d4fc5e06bfd",
   "lastOpenFiles": [
+    "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/06-Firewall Rules Logging.md",
+    "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/07-Ops Agent.md",
     "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/PCI-DSS-GCP-GKE.md",
     "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/05-VPC Flow Logs.md",
     "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/04-BigQuery para Retenção e Análise.md",
@@ -249,8 +251,6 @@
     "Essias-Agent/Experiences/Carrer/Why I Moved From Support To Cloud.md",
     "Essias-Agent/PROFILE.md",
     "Knowledge-Base/Tutorials/PCI - System components are configured and managed securely.md",
-    "Knowledge-Base/Technology/Cloud/GCP/Cloud SQL.md",
-    "Knowledge-Base/Technology/Untitled.md",
     "Knowledge-Base/Technology/AI/OCI AI Foundations Associate",
     "Knowledge-Base/Technology/ITSM",
     "Knowledge-Base/Technology/Integration",
