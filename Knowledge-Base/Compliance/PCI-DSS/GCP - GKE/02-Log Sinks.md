@@ -54,7 +54,7 @@ Como o PCI DSS exige retenção mínima de um ano, torna-se necessário exportar
 
 Utilizado para arquivamento de longo prazo.
 
-No ambiente GKE, o documento recomenda configurar um bucket com política de retenção de **365 dias**.
+No ambiente GKE, recomenda-se configurar um bucket com política de retenção de **365 dias**.
 
 ---
 
@@ -106,6 +106,8 @@ Os destinos poderão ser:
 
 - Cloud Storage
 - BigQuery
+
+Ver comparação dos storages para retenção [[Comparing Logging Storages]]
 
 ---
 
