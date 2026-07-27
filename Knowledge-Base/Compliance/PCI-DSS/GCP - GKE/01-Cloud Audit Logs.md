@@ -195,12 +195,3 @@ Conforme o documento, as evidências podem ser obtidas por meio de capturas de t
 - Kubernetes Engine API configurada (quando houver GKE).
 
 ---
-
-# Observações
-
-Segundo o documento:
-
-- Admin Activity já está habilitado por padrão.
-- Data Access normalmente está desabilitado.
-- Para atender ao PCI DSS, Data Read e Data Write deverão estar habilitados para os serviços que processam ou armazenam CHD.
-- Os Cloud Audit Logs constituem a principal fonte de auditoria utilizada ao longo dos requisitos da família 10 do PCI DSS.
