@@ -9,76 +9,69 @@ Related: [[PCI-DSS-GCP-GKE]]
 
 ---
 
-# Data Access Logs
+# Log Sinks
 
 ## Objetivo
 
-O documento estabelece que, para atender ao requisito **10.2.1 do PCI DSS v4.0.1**, é obrigatório habilitar os **Data Access Logs** para os serviços que processam ou armazenam dados de portadores de cartão (CHD).
+O documento estabelece que, para atender aos requisitos da família **10 do PCI DSS v4.0.1**, é necessário configurar **Log Sinks** para exportar os logs de auditoria do Cloud Logging para um repositório de longo prazo.
 
-Enquanto os **Admin Activity Logs** registram operações administrativas, os **Data Access Logs** registram os acessos aos dados propriamente ditos, permitindo identificar quem leu ou modificou informações consideradas sensíveis.
+Os Log Sinks serão responsáveis por centralizar os logs produzidos pelos diversos serviços do Google Cloud, permitindo atender aos requisitos de retenção, investigação forense, revisão de eventos e produção de evidências de auditoria.
 
 ---
 
 # Requisitos PCI-DSS relacionados
 
 - PCI DSS 10.2.1
+- PCI DSS 10.4.1
+- PCI DSS 10.4.2
+- PCI DSS 10.4.2.1
 
 ---
 
-# O que são Data Access Logs
+# O que são Log Sinks
 
-Os Data Access Logs fazem parte dos **Cloud Audit Logs** e registram operações relacionadas ao acesso aos dados dos serviços do Google Cloud.
+Um **Log Sink** (Coletor de Registros) é um recurso do Cloud Logging utilizado para exportar logs para outro destino.
 
-Segundo o documento, estes logs registram:
+Segundo o documento, os Log Sinks deverão ser utilizados para enviar os logs de auditoria para:
 
-- Quem leu dados sensíveis.
-- Quem modificou dados sensíveis.
-
-O documento informa que esses logs normalmente permanecem desabilitados devido ao grande volume de registros gerados, porém são obrigatórios para o PCI DSS.
+- Cloud Storage, destinado ao arquivamento de longo prazo.
+- BigQuery, destinado à análise forense e consultas.
 
 ---
 
-# Tipos de Data Access Logs
+# Por que utilizar Log Sinks
 
-O documento apresenta dois tipos de logs que deverão ser habilitados.
+O documento informa que:
 
-## Data Read
+- os logs de **Admin Activity** permanecem armazenados por aproximadamente **400 dias**;
+- os logs de **Data Access** permanecem armazenados por apenas **30 dias** por padrão.
 
-Registra operações de leitura dos dados.
-
-Exemplos descritos no documento:
-
-- leitura de recursos;
-- monitoramento de acesso a Secrets no Kubernetes.
+Como o PCI DSS exige retenção mínima de um ano, torna-se necessário exportar esses logs para outro repositório utilizando Log Sinks.
 
 ---
 
-## Data Write
+# Destinos citados no documento
 
-Registra operações de gravação.
+## Cloud Storage
 
-Inclui criação e atualização de recursos.
+Utilizado para arquivamento de longo prazo.
 
----
-
-# Serviços mencionados no documento
-
-O documento informa que os Data Access Logs deverão ser habilitados para os serviços que processam ou armazenam dados de cartões.
-
-São citados como exemplo:
-
-- Cloud Storage
-- Cloud SQL
-- BigQuery
-- IAM
-
-Para ambientes GKE também é citado:
-
-- Kubernetes Engine API
+No ambiente GKE, o documento recomenda configurar um bucket com política de retenção de **365 dias**.
 
 ---
 
-# Como habilitar os Data Access Logs
+## BigQuery
+
+Utilizado para:
+
+- consultas SQL;
+- análise forense;
+- geração de relatórios;
+- consultas agendadas (Scheduled Queries).
+
+---
+
+# Como criar um Log Sink
 
 ## Passo 1
 
@@ -91,90 +84,76 @@ Abrir o Console do Google Cloud.
 Acessar:
 
 ```
-IAM e administrador
-    Logs de auditoria
+Logging
+    Roteador de registros
 ```
 
 ---
 
 ## Passo 3
 
-Selecionar o serviço desejado.
+Selecionar:
 
-Exemplos apresentados no documento:
-
-- Cloud Storage
-- Cloud SQL
-- BigQuery
-- IAM
+```
+Criar coletor
+```
 
 ---
 
 ## Passo 4
 
-No painel à direita localizar a seção:
+Escolher o destino.
 
-```
-Tipos de log
-```
+Segundo o documento, os destinos poderão ser:
+
+- Cloud Storage
+- BigQuery
 
 ---
 
 ## Passo 5
 
-Marcar:
+Definir o filtro.
 
-- Data Read
-- Data Write
+O documento apresenta o seguinte filtro recomendado para os logs de auditoria:
+
+```text
+logName:"cloudaudit.googleapis.com"
+```
 
 ---
 
 ## Passo 6
 
-Salvar a configuração.
+Criar o coletor.
 
 ---
 
-# Configuração para GKE
+# Configuração para ambiente GKE
 
-O documento apresenta um procedimento específico para clusters GKE Autopilot.
+Para clusters GKE Autopilot, o documento apresenta um filtro específico.
 
-## Passo 1
-
-Acessar:
-
+```text
+resource.type="k8s_cluster"
+resource.labels.cluster_name="gke-cluster-prd"
+logName:"cloudaudit.googleapis.com"
 ```
-IAM e administrador
-    Logs de auditoria
-```
+
+Segundo o documento, esse filtro captura os logs de auditoria do cluster.
 
 ---
 
-## Passo 2
+# Utilizações dos Log Sinks ao longo do documento
 
-Pesquisar por:
+Os Log Sinks são utilizados para:
 
-```
-Kubernetes Engine API
-```
-
----
-
-## Passo 3
-
-Na seção **Tipos de log**, habilitar:
-
-- Admin Read
-- Data Read
-- Data Write
-
----
-
-## Passo 4
-
-Salvar a configuração.
-
-Segundo o documento, essa configuração é necessária para registrar quem acessou ou modificou recursos dentro do Kubernetes, como Secrets e ConfigMaps.
+- exportar Cloud Audit Logs;
+- garantir retenção mínima de um ano;
+- centralizar os logs em Cloud Storage ou BigQuery;
+- fornecer dados para consultas no Log Analytics;
+- alimentar consultas agendadas no BigQuery;
+- gerar relatórios periódicos;
+- produzir evidências para auditorias.
 
 ---
 
@@ -182,24 +161,23 @@ Segundo o documento, essa configuração é necessária para registrar quem aces
 
 Após a configuração:
 
-- leituras de dados passam a ser registradas;
-- gravações de dados passam a ser registradas;
-- acessos aos recursos do Kubernetes passam a ser auditados;
-- torna-se possível identificar quem acessou ou modificou informações sensíveis.
+- os logs deixam de depender apenas da retenção padrão do Cloud Logging;
+- os logs ficam armazenados em um repositório centralizado;
+- torna-se possível realizar consultas e investigações utilizando BigQuery;
+- torna-se possível atender ao período de retenção exigido pelo PCI DSS.
 
 ---
 
 # Dependências
 
-Os Data Access Logs serão utilizados posteriormente por:
+Os Log Sinks serão utilizados posteriormente por:
 
-- [[Log Sinks]]
 - [[Cloud Storage]]
 - [[BigQuery]]
-- [[Log Router]]
 - [[Log Analytics]]
-- [[Security Command Center]]
+- [[Scheduled Queries]]
 - [[Cloud Monitoring]]
+- [[Security Command Center]]
 
 ---
 
@@ -207,11 +185,12 @@ Os Data Access Logs serão utilizados posteriormente por:
 
 Conforme o documento, podem ser obtidas capturas de tela mostrando:
 
-- tela de Logs de Auditoria;
-- Data Read habilitado;
-- Data Write habilitado;
-- serviços configurados;
-- Kubernetes Engine API com Data Read e Data Write habilitados (quando houver GKE).
+- tela do Roteador de Registros;
+- lista de Log Sinks configurados;
+- destino configurado;
+- filtro utilizado;
+- bucket do Cloud Storage (quando utilizado);
+- dataset do BigQuery (quando utilizado).
 
 ---
 
@@ -219,7 +198,8 @@ Conforme o documento, podem ser obtidas capturas de tela mostrando:
 
 Segundo o documento:
 
-- os Data Access Logs normalmente ficam desabilitados devido ao volume de registros gerados;
-- para atender ao PCI DSS, eles são obrigatórios;
-- devem ser habilitados para todos os serviços que processam ou armazenam dados de portadores de cartão (CHD);
-- no ambiente GKE, também devem ser habilitados para a Kubernetes Engine API a fim de registrar o acesso aos recursos do cluster.
+- os Log Sinks deverão exportar todos os logs de auditoria;
+- Cloud Storage deve ser utilizado para arquivamento de longo prazo;
+- BigQuery pode ser utilizado para análises forenses e consultas rápidas;
+- no ambiente GKE existe um filtro específico para exportação dos logs do cluster;
+- os Log Sinks são utilizados em diversos requisitos da família 10 do PCI DSS como mecanismo de centralização e retenção dos registros de auditoria.

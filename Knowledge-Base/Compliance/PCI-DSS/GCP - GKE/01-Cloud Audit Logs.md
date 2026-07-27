@@ -13,7 +13,7 @@ Related: [[PCI-DSS-GCP-GKE]]
 
 ## Objetivo
 
-O documento estabelece que, para atender ao requisito **10.2.1 do PCI DSS v4.0.1**, é necessário garantir que os **Cloud Audit Logs** estejam habilitados para todos os componentes do sistema que processam ou armazenam dados de portadores de cartão (CHD).
+Para atender ao requisito **10.2.1 do PCI DSS v4.0.1**, é necessário garantir que os **Cloud Audit Logs** estejam habilitados para todos os componentes do sistema que processam ou armazenam dados de portadores de cartão (CHD).
 
 Os Cloud Audit Logs serão a principal fonte de auditoria do ambiente GCP e servirão como base para os demais requisitos relacionados ao monitoramento, revisão de eventos e geração de evidências.
 
@@ -39,13 +39,13 @@ Cloud Audit Logs registram operações executadas nos serviços do Google Cloud,
 - Qual operação foi realizada.
 - Se a operação foi concluída com sucesso ou falhou.
 
-Segundo o documento, os Cloud Audit Logs constituem o principal mecanismo de auditoria utilizado para atender aos requisitos do PCI DSS no ambiente Google Cloud.
+Os Cloud Audit Logs constituem o principal mecanismo de auditoria utilizado para atender aos requisitos do PCI DSS no ambiente Google Cloud.
 
 ---
 
 # Tipos de logs
 
-O documento faz referência aos seguintes tipos.
+Existem os seguintes tipos de logs.
 
 ## Admin Activity
 
@@ -124,6 +124,8 @@ Habilitar:
 - Data Read
 - Data Write
 
+OBS.: Admin read já é ativado por padrão.
+
 ---
 
 ## Passo 5
@@ -184,9 +186,9 @@ Os Cloud Audit Logs serão utilizados posteriormente por:
 
 ---
 
-# Evidências sugeridas
+# Evidências
 
-Conforme o documento, as evidências podem ser obtidas por meio de capturas de tela mostrando:
+As evidências podem ser obtidas por meio de capturas de tela mostrando:
 
 - tela de Logs de Auditoria;
 - serviços configurados;

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/01-Cloud Audit Logs.md",
+                "file": "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/02-Data Access Logs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "01-Cloud Audit Logs"
+              "title": "02-Data Access Logs"
             }
           }
         ]
@@ -207,9 +207,9 @@
   },
   "active": "c1e2fceb7d6a67ac",
   "lastOpenFiles": [
+    "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/PCI-DSS-GCP-GKE.md",
     "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/02-Data Access Logs.md",
     "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/01-Cloud Audit Logs.md",
-    "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/PCI-DSS-GCP-GKE.md",
     "Templates/Ai Template.md",
     "Knowledge-Base/Technology/Cyber Security/CIS Benchmarks.md",
     "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE",
