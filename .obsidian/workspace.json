@@ -207,8 +207,9 @@
   },
   "active": "c1e2fceb7d6a67ac",
   "lastOpenFiles": [
-    "Knowledge-Base/Compliance/PCI-DSS/PCI-DSS-GCP-GKE.md",
+    "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/02-Data Access Logs.md",
     "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/01-Cloud Audit Logs.md",
+    "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/PCI-DSS-GCP-GKE.md",
     "Templates/Ai Template.md",
     "Knowledge-Base/Technology/Cyber Security/CIS Benchmarks.md",
     "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE",
@@ -235,7 +236,6 @@
     "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/4.5-Prompt Engineering.md",
     "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/4.4-Transformers Part-2.md",
     "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/4.3-Transformers Part-1.md",
-    "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/4.2-Introduction to Large Language Models.md",
     "Knowledge-Base/Technology/AI/OCI AI Foundations Associate",
     "Knowledge-Base/Technology/ITSM",
     "Knowledge-Base/Technology/Integration",
