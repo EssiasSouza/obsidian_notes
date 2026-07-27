@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge-Base/Tutorials/ESO - External Secrets Operator Setup (ClusterSecretStore).md",
+                "file": "Knowledge-Base/Technology/Cyber Security/CIS Benchmarks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ESO - External Secrets Operator Setup (ClusterSecretStore)"
+              "title": "CIS Benchmarks"
             }
           }
         ]
@@ -205,8 +205,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c1e2fceb7d6a67ac",
+  "active": "2799abf03005dede",
   "lastOpenFiles": [
+    "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE",
+    "Knowledge-Base/Compliance/PCI-DSS",
+    "Knowledge-Base/Compliance",
+    "Knowledge-Base/Tutorials/ESO - External Secrets Operator Setup (ClusterSecretStore).md",
     "Knowledge-Base/Technology/Cloud/Kubernetes/External Secret Operator.md",
     "Knowledge-Base/Technology/Cloud/AWS/AWS CLI.md",
     "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/3.3-Deep Learning Models - CNN.md",
@@ -232,8 +236,6 @@
     "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/4.1-Introduction to Generative AI.md",
     "Knowledge-Base/Technology/AI/OCI AI Foundations Associate",
     "Essias-Agent/Career/Technical Opportunities.md",
-    "Knowledge-Base/Technology/AI/OCI AI Foundations.md",
-    "Essias-Agent/Memory/Difficulties.md",
     "Knowledge-Base/Technology/ITSM",
     "Knowledge-Base/Technology/Integration",
     "Essias-Agent/Skills/Career",
@@ -241,8 +243,6 @@
     "curriculum/versions/Portuguese",
     "curriculum/versions/French",
     "curriculum/versions/English",
-    "curriculum/versions",
-    "curriculum/cover-letter",
     "Knowledge-Base/hard-skills.canvas"
   ]
 }
