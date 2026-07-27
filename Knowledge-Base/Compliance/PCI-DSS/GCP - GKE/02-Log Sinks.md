@@ -13,7 +13,7 @@ Related: [[PCI-DSS-GCP-GKE]]
 
 ## Objetivo
 
-O documento estabelece que, para atender aos requisitos da família **10 do PCI DSS v4.0.1**, é necessário configurar **Log Sinks** para exportar os logs de auditoria do Cloud Logging para um repositório de longo prazo.
+Para atender aos requisitos da família **10 do PCI DSS v4.0.1**, é necessário configurar **Log Sinks** para exportar os logs de auditoria do Cloud Logging para um repositório de longo prazo.
 
 Os Log Sinks serão responsáveis por centralizar os logs produzidos pelos diversos serviços do Google Cloud, permitindo atender aos requisitos de retenção, investigação forense, revisão de eventos e produção de evidências de auditoria.
 
@@ -32,7 +32,7 @@ Os Log Sinks serão responsáveis por centralizar os logs produzidos pelos diver
 
 Um **Log Sink** (Coletor de Registros) é um recurso do Cloud Logging utilizado para exportar logs para outro destino.
 
-Segundo o documento, os Log Sinks deverão ser utilizados para enviar os logs de auditoria para:
+Os Log Sinks deverão ser utilizados para enviar os logs de auditoria para:
 
 - Cloud Storage, destinado ao arquivamento de longo prazo.
 - BigQuery, destinado à análise forense e consultas.
@@ -41,8 +41,6 @@ Segundo o documento, os Log Sinks deverão ser utilizados para enviar os logs de
 
 # Por que utilizar Log Sinks
 
-O documento informa que:
-
 - os logs de **Admin Activity** permanecem armazenados por aproximadamente **400 dias**;
 - os logs de **Data Access** permanecem armazenados por apenas **30 dias** por padrão.
 
@@ -50,7 +48,7 @@ Como o PCI DSS exige retenção mínima de um ano, torna-se necessário exportar
 
 ---
 
-# Destinos citados no documento
+# Destinos
 
 ## Cloud Storage
 
@@ -104,7 +102,7 @@ Criar coletor
 
 Escolher o destino.
 
-Segundo o documento, os destinos poderão ser:
+Os destinos poderão ser:
 
 - Cloud Storage
 - BigQuery
@@ -115,7 +113,7 @@ Segundo o documento, os destinos poderão ser:
 
 Definir o filtro.
 
-O documento apresenta o seguinte filtro recomendado para os logs de auditoria:
+Filtro recomendado para os logs de auditoria:
 
 ```text
 logName:"cloudaudit.googleapis.com"
@@ -131,7 +129,7 @@ Criar o coletor.
 
 # Configuração para ambiente GKE
 
-Para clusters GKE Autopilot, o documento apresenta um filtro específico.
+Para clusters GKE Autopilot o filtro específico é...
 
 ```text
 resource.type="k8s_cluster"
@@ -139,11 +137,11 @@ resource.labels.cluster_name="gke-cluster-prd"
 logName:"cloudaudit.googleapis.com"
 ```
 
-Segundo o documento, esse filtro captura os logs de auditoria do cluster.
+Esse filtro captura os logs de auditoria do cluster.
 
 ---
 
-# Utilizações dos Log Sinks ao longo do documento
+# Utilizações dos Log Sinks
 
 Os Log Sinks são utilizados para:
 
@@ -181,9 +179,9 @@ Os Log Sinks serão utilizados posteriormente por:
 
 ---
 
-# Evidências sugeridas
+# Evidências
 
-Conforme o documento, podem ser obtidas capturas de tela mostrando:
+Podem ser obtidas capturas de tela mostrando:
 
 - tela do Roteador de Registros;
 - lista de Log Sinks configurados;
@@ -195,8 +193,6 @@ Conforme o documento, podem ser obtidas capturas de tela mostrando:
 ---
 
 # Observações
-
-Segundo o documento:
 
 - os Log Sinks deverão exportar todos os logs de auditoria;
 - Cloud Storage deve ser utilizado para arquivamento de longo prazo;
