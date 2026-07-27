@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge-Base/Technology/Cyber Security/CIS Benchmarks.md",
+                "file": "Knowledge-Base/Compliance/PCI-DSS/PCI-DSS-GCP-GKE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CIS Benchmarks"
+              "title": "PCI-DSS-GCP-GKE"
             }
           }
         ]
@@ -205,8 +205,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2799abf03005dede",
+  "active": "c1e2fceb7d6a67ac",
   "lastOpenFiles": [
+    "Templates/Ai Template.md",
+    "Knowledge-Base/Compliance/PCI-DSS/PCI-DSS-GCP-GKE.md",
+    "Knowledge-Base/Technology/Cyber Security/CIS Benchmarks.md",
     "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE",
     "Knowledge-Base/Compliance/PCI-DSS",
     "Knowledge-Base/Compliance",
@@ -223,7 +226,6 @@
     "Essias-Agent/Stories/Dailies - Weeklies.md",
     "Essias-Agent/Experiences/Carrer/Why I Moved From Support To Cloud.md",
     "Essias-Agent/PROFILE.md",
-    "Knowledge-Base/Technology/Cyber Security/CIS Benchmarks.md",
     "Knowledge-Base/Tutorials/PCI - System components are configured and managed securely.md",
     "Knowledge-Base/Technology/Cloud/GCP/Cloud SQL.md",
     "Knowledge-Base/Technology/Untitled.md",
@@ -235,14 +237,12 @@
     "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/4.2-Introduction to Large Language Models.md",
     "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/4.1-Introduction to Generative AI.md",
     "Knowledge-Base/Technology/AI/OCI AI Foundations Associate",
-    "Essias-Agent/Career/Technical Opportunities.md",
     "Knowledge-Base/Technology/ITSM",
     "Knowledge-Base/Technology/Integration",
     "Essias-Agent/Skills/Career",
     "curriculum/versions/Spanish",
     "curriculum/versions/Portuguese",
     "curriculum/versions/French",
-    "curriculum/versions/English",
     "Knowledge-Base/hard-skills.canvas"
   ]
 }
