@@ -30,13 +30,13 @@ No ambiente GKE, o documento também orienta configurar um bucket com política 
 
 # Finalidade do Cloud Storage
 
-Segundo o documento, o Cloud Storage será utilizado para:
+O Cloud Storage será utilizado para:
 
 - arquivamento de longo prazo dos logs de auditoria;
 - atender ao período mínimo de retenção exigido pelo PCI DSS;
 - servir como destino dos Log Sinks.
 
-O documento diferencia o uso do Cloud Storage do BigQuery:
+Diferença do Cloud Storage do BigQuery:
 
 | Serviço | Finalidade |
 |----------|------------|
@@ -112,9 +112,9 @@ logName:"cloudaudit.googleapis.com"
 
 ---
 
-# Utilização ao longo do documento
+# Utilização
 
-O Cloud Storage é citado como repositório para:
+O Cloud Storage é repositório para:
 
 - Cloud Audit Logs;
 - Data Access Logs;
@@ -149,9 +149,9 @@ Será utilizado posteriormente por:
 
 ---
 
-# Evidências sugeridas
+# Evidências
 
-Conforme o documento, podem ser obtidas capturas de tela mostrando:
+Podem ser obtidas capturas de tela mostrando:
 
 - bucket utilizado para retenção;
 - política de retenção configurada (quando aplicável);
@@ -161,8 +161,6 @@ Conforme o documento, podem ser obtidas capturas de tela mostrando:
 ---
 
 # Observações
-
-Segundo o documento:
 
 - o Cloud Storage deve ser utilizado para arquivamento de longo prazo dos logs;
 - os Log Sinks deverão exportar os logs de auditoria para esse bucket;

@@ -142,9 +142,9 @@ Além dos produtos, o documento descreve configurações específicas que dever�
 Essa ordem segue exatamente a dependência lógica apresentada pelo documento.
 
 1. Cloud Audit Logs (Admin logs e Data Access Logs)
-2. 
+2. Cloud Storage para retenção
 3. Log Sinks
-4. Cloud Storage para retenção
+4. 
 5. BigQuery para retenção e análise
 6. VPC Flow Logs
 7. Firewall Rules Logging
