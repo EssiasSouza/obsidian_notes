@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/04-BigQuery para Retenção e Análise.md",
+                "file": "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/05-VPC Flow Logs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04-BigQuery para Retenção e Análise"
+              "title": "05-VPC Flow Logs"
             }
           }
         ],
@@ -223,6 +223,7 @@
   "active": "15719d4fc5e06bfd",
   "lastOpenFiles": [
     "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/PCI-DSS-GCP-GKE.md",
+    "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/05-VPC Flow Logs.md",
     "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/04-BigQuery para Retenção e Análise.md",
     "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/02-Cloud Storage para Retenção.md",
     "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/Comparing Logging Storages.md",
@@ -250,7 +251,6 @@
     "Knowledge-Base/Tutorials/PCI - System components are configured and managed securely.md",
     "Knowledge-Base/Technology/Cloud/GCP/Cloud SQL.md",
     "Knowledge-Base/Technology/Untitled.md",
-    "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/OCI AI Foundations.md",
     "Knowledge-Base/Technology/AI/OCI AI Foundations Associate",
     "Knowledge-Base/Technology/ITSM",
     "Knowledge-Base/Technology/Integration",

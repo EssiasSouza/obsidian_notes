@@ -211,7 +211,7 @@ Será utilizado posteriormente por:
 
 ---
 
-# Evidências sugeridas
+# Evidências
 
 Podem ser obtidas capturas de tela mostrando:
 
@@ -224,8 +224,6 @@ Podem ser obtidas capturas de tela mostrando:
 ---
 
 # Observações
-
-Segundo o documento:
 
 - o BigQuery pode ser utilizado como destino dos Log Sinks;
 - permite realizar análises forenses rápidas sobre os logs;
