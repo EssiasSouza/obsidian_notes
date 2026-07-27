@@ -150,7 +150,7 @@ Essa ordem segue exatamente a dependência lógica apresentada pelo documento.
 7. Firewall Rules Logging
 8. Ops Agent
 9. Kubernetes Audit Logs
-10. Log Router
+10. []
 11. Cloud Monitoring
 12. Log-based Metrics
 13. Log-based Alerts
@@ -168,3 +168,134 @@ Essa ordem segue exatamente a dependência lógica apresentada pelo documento.
 25. Targeted Risk Analysis (TRA)
 26. Processo de tratamento de anomalias
 27. Produção de evidências para auditoria
+
+PCI DSS 4.0.1
+Plano de Ação para Logs e Monitoramento
+│
+├── 1. Requisito 10.2.1
+│   Habilitar coleta de logs
+│   │
+│   ├── Cloud Audit Logs
+│   │   ├── Admin Activity
+│   │   ├── Data Read
+│   │   └── Data Write
+│   │
+│   ├── Retenção
+│   │   ├── Log Sink
+│   │   ├── Cloud Storage
+│   │   └── BigQuery
+│   │
+│   ├── Rede
+│   │   ├── VPC Flow Logs
+│   │   └── Firewall Rules Logging
+│   │
+│   ├── Compute Engine
+│   │   └── Ops Agent
+│   │
+│   ├── GKE
+│   │   ├── Kubernetes Audit Logs
+│   │   ├── Data Access
+│   │   └── Retenção
+│   │
+│   └── Alertas
+│       ├── Log-based Metrics
+│       └── Cloud Monitoring
+│
+├── 2. Requisito 10.4.1
+│   Automatizar revisão diária
+│   │
+│   ├── Security Command Center
+│   ├── Event Threat Detection
+│   ├── Log Analytics
+│   ├── Dashboard Cloud Monitoring
+│   └── Alertas automáticos
+│
+├── 3. Requisito 10.4.1.1
+│   Detectar anomalias automaticamente
+│   │
+│   ├── SCC Premium/Enterprise
+│   ├── Scheduled Queries
+│   ├── BigQuery
+│   ├── Chronicle SIEM (opcional)
+│   └── Alertas críticos
+│
+├── 4. Requisito 10.4.2
+│   Revisão periódica
+│   │
+│   ├── Sistemas fora do CDE
+│   ├── Revisão semanal
+│   ├── Relatórios BigQuery
+│   ├── Dashboard
+│   └── Evidências da revisão
+│
+├── 5. Requisito 10.4.2.1
+│   Targeted Risk Analysis (TRA)
+│   │
+│   ├── Identificar ativos
+│   ├── Avaliar riscos
+│   ├── Definir frequência
+│   ├── Aprovação do CISO
+│   └── Revisão anual da TRA
+│
+└── 6. Requisito 10.4.3
+    Tratamento das anomalias
+    │
+    ├── Triagem
+    ├── Investigação
+    ├── Remediação
+    ├── Ticket/Finding
+    ├── Encerramento
+    └── Evidências da auditoria
+
+---
+FASE 1
+Infraestrutura de Logs
+──────────────────────────
+✔ Cloud Audit Logs
+✔ Data Access Logs
+✔ Kubernetes Audit Logs
+✔ VPC Flow Logs
+✔ Firewall Logs
+✔ Ops Agent
+
+            ↓
+
+FASE 2
+Centralização
+──────────────────────────
+✔ Log Sink
+✔ Cloud Storage
+✔ BigQuery
+✔ Retenção 1 ano
+
+            ↓
+
+FASE 3
+Monitoramento
+──────────────────────────
+✔ Log Analytics
+✔ Dashboards
+✔ Alertas
+✔ Security Command Center
+✔ Event Threat Detection
+
+            ↓
+
+FASE 4
+Governança
+──────────────────────────
+✔ Revisão diária
+✔ Revisão semanal
+✔ Targeted Risk Analysis
+✔ Processo operacional
+
+            ↓
+
+FASE 5
+Resposta
+──────────────────────────
+✔ Ticket automático
+✔ Investigação
+✔ Remediação
+✔ Evidências
+✔ Auditoria PCI DSS
