@@ -35,7 +35,8 @@
               "title": "PCI-DSS-GCP-GKE"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -219,11 +220,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c1e2fceb7d6a67ac",
+  "active": "15719d4fc5e06bfd",
   "lastOpenFiles": [
+    "Knowledge-Base/Technology/Platform/Platform Engineering.md",
     "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/03-Log Sinks.md",
     "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/PCI-DSS-GCP-GKE.md",
-    "Knowledge-Base/Technology/Platform/Platform Engineering.md",
     "Pasted image 20260728145406.png",
     "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/07-Ops Agent.md",
     "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/06-Firewall Rules Logging.md",
