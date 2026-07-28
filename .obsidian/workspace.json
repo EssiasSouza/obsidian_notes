@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/03-Log Sinks.md",
+                "file": "Knowledge-Base/Technology/Platform/Platform Engineering.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03-Log Sinks"
+              "title": "Platform Engineering"
             }
           },
           {
@@ -35,8 +35,7 @@
               "title": "PCI-DSS-GCP-GKE"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -220,18 +219,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2799abf03005dede",
+  "active": "c1e2fceb7d6a67ac",
   "lastOpenFiles": [
+    "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/03-Log Sinks.md",
+    "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/PCI-DSS-GCP-GKE.md",
     "Knowledge-Base/Technology/Platform/Platform Engineering.md",
     "Pasted image 20260728145406.png",
-    "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/PCI-DSS-GCP-GKE.md",
     "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/07-Ops Agent.md",
     "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/06-Firewall Rules Logging.md",
     "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/05-VPC Flow Logs.md",
     "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/04-BigQuery para Retenção e Análise.md",
     "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/02-Cloud Storage para Retenção.md",
     "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/Comparing Logging Storages.md",
-    "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/03-Log Sinks.md",
     "Knowledge-Base/Technology/Cloud/GCP/BigQuery.md",
     "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/01-Cloud Audit Logs.md",
     "Templates/Ai Template.md",
