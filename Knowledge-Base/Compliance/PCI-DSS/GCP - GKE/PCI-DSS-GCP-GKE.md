@@ -4,7 +4,7 @@ Areas: #area/work
 Subject: #subect/pci-dss
 Type: #type/learning
 Learning priority: #priority/P2
-Status: #status/lerning
+Status: #status/learning 
 Related: 
 
 ---

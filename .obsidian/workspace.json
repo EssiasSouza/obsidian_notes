@@ -220,11 +220,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "15719d4fc5e06bfd",
+  "active": "2799abf03005dede",
   "lastOpenFiles": [
+    "Knowledge-Base/Technology/Platform/Platform Engineering.md",
+    "Pasted image 20260728145406.png",
+    "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/PCI-DSS-GCP-GKE.md",
     "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/07-Ops Agent.md",
     "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/06-Firewall Rules Logging.md",
-    "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/PCI-DSS-GCP-GKE.md",
     "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/05-VPC Flow Logs.md",
     "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/04-BigQuery para Retenção e Análise.md",
     "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/02-Cloud Storage para Retenção.md",
@@ -249,8 +251,6 @@
     "Knowledge-Base/Technology/Cyber Security/OWASP-CIS.md",
     "Essias-Agent/Stories/Dailies - Weeklies.md",
     "Essias-Agent/Experiences/Carrer/Why I Moved From Support To Cloud.md",
-    "Essias-Agent/PROFILE.md",
-    "Knowledge-Base/Tutorials/PCI - System components are configured and managed securely.md",
     "Knowledge-Base/Technology/AI/OCI AI Foundations Associate",
     "Knowledge-Base/Technology/ITSM",
     "Knowledge-Base/Technology/Integration",
