@@ -11,10 +11,14 @@
             "id": "e456cb337c89d96b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Knowledge-Base/Technology/Cloud/Kubernetes/Cloud Native Operational Excellence (CNOE).md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Cloud Native Operational Excellence (CNOE)"
             }
           }
         ]
@@ -203,6 +207,9 @@
   },
   "active": "e456cb337c89d96b",
   "lastOpenFiles": [
+    "Knowledge-Base/Technology/Platform/Platform Engineering.md",
+    "Knowledge-Base/Technology/Cloud/Kubernetes/Cloud Native Operational Excellence (CNOE).md",
+    "Knowledge-Base/Technology/Cloud/Kubernetes/Calico.md",
     "Log-based Metrics.md",
     "Essias-Agent/Workflows/Generate-Resume.md",
     "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/PCI-DSS-GCP-GKE.md",
@@ -210,7 +217,6 @@
     "Knowledge-Base/Technology/Platform/Backstage - The Open Platform for Building Internal Developer Portals.md",
     "Knowledge-Base/Technology/Platform/Internal Developer Platforms.md",
     "Knowledge-Base/Technology/Platform/Java-App Runtime.md",
-    "Knowledge-Base/Technology/Platform/Platform Engineering.md",
     "Pasted image 20260728163103.png",
     "Pasted image 20260728162525.png",
     "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/03-Log Sinks.md",
@@ -233,8 +239,6 @@
     "Knowledge-Base/Technology/Cloud/AWS/AWS CLI.md",
     "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/3.3-Deep Learning Models - CNN.md",
     "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/3.2-Deep Learning Models-Sequence Models.md",
-    "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/3.1-Introduction to Deep Learning.md",
-    "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/1.3-AI vs ML vs DL.md",
     "Knowledge-Base/Technology/AI/OCI AI Foundations Associate",
     "Knowledge-Base/Technology/ITSM",
     "Knowledge-Base/Technology/Integration",

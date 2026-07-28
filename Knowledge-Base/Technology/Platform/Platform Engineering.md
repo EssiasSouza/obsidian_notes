@@ -63,3 +63,5 @@ Our EKS capabilities for Argo CD is configured to deploy these additional Kubern
 - **Argo Workflows** - A powerful workflow engine that enables the orchestration of complex CI/CD and data pipelines
 - **Argo Rollouts** - A progressive delivery controller that provides advanced deployment strategies like blue-green and canary deployments for Kubernetes
 - **Kargo** - A continuous promotion orchestration layer that complements Argo CD by streamlining multi-stage application promotion using GitOps principles
+
+Also read about [[Cloud Native Operational Excellence (CNOE)]]
