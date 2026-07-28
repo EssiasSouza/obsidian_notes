@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PDP/PDP.md",
+                "file": "Essias-Agent/Career/Certifications.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PDP"
+              "title": "Certifications"
             }
           }
         ]
@@ -207,6 +207,21 @@
   },
   "active": "e456cb337c89d96b",
   "lastOpenFiles": [
+    "Essias-Agent/Career/Technical Opportunities.md",
+    "Essias-Agent/Career/Technical Achievements.md",
+    "Essias-Agent/Career/Resume Master.md",
+    "Essias-Agent/Career/Projects.md",
+    "Essias-Agent/Career/Professional Highlights.md",
+    "Essias-Agent/Career/Companies.md",
+    "Essias-Agent/Career/Certifications.md",
+    "Essias-Agent/Agents/Atlas/Agent Definition.md",
+    "Knowledge-Base/Sandbox/Sandbox.md",
+    "Essias-Agent/PROFILE.md",
+    "Knowledge-Base/Sandbox",
+    "Essias-Agent/Essias.md",
+    "Essias-Agent/Experiences/Carrer/Why I Moved From Support To Cloud.md",
+    "Essias-Agent/Memory/Learning Progress.md",
+    "PDP/PDP.md",
     "PDP/oci-ai-foundations-study-plan.md",
     "Knowledge-Base/Technology/Cloud/Kubernetes/Cloud Native Operational Excellence (CNOE).md",
     "Knowledge-Base/Technology/Platform/Platform Engineering.md",
@@ -222,30 +237,15 @@
     "Pasted image 20260728162525.png",
     "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/03-Log Sinks.md",
     "Pasted image 20260728145406.png",
-    "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/07-Ops Agent.md",
-    "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/06-Firewall Rules Logging.md",
-    "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/05-VPC Flow Logs.md",
-    "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/04-BigQuery para Retenção e Análise.md",
-    "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/02-Cloud Storage para Retenção.md",
-    "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/Comparing Logging Storages.md",
-    "Knowledge-Base/Technology/Cloud/GCP/BigQuery.md",
-    "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/01-Cloud Audit Logs.md",
-    "Templates/Ai Template.md",
-    "Knowledge-Base/Technology/Cyber Security/CIS Benchmarks.md",
     "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE",
     "Knowledge-Base/Compliance/PCI-DSS",
     "Knowledge-Base/Compliance",
-    "Knowledge-Base/Tutorials/ESO - External Secrets Operator Setup (ClusterSecretStore).md",
-    "Knowledge-Base/Technology/Cloud/Kubernetes/External Secret Operator.md",
-    "Knowledge-Base/Technology/Cloud/AWS/AWS CLI.md",
-    "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/3.3-Deep Learning Models - CNN.md",
     "Knowledge-Base/Technology/AI/OCI AI Foundations Associate",
     "Knowledge-Base/Technology/ITSM",
     "Knowledge-Base/Technology/Integration",
     "Essias-Agent/Skills/Career",
     "curriculum/versions/Spanish",
     "curriculum/versions/Portuguese",
-    "curriculum/versions/French",
     "Knowledge-Base/hard-skills.canvas"
   ]
 }
