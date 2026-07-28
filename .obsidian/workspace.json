@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge-Base/Technology/Platform/Platform Engineering.md",
+                "file": "Knowledge-Base/Technology/Platform/Internal Developer Platforms.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Platform Engineering"
+              "title": "Internal Developer Platforms"
             }
           },
           {
@@ -35,8 +35,7 @@
               "title": "PCI-DSS-GCP-GKE"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -220,11 +219,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "15719d4fc5e06bfd",
+  "active": "c1e2fceb7d6a67ac",
   "lastOpenFiles": [
     "Knowledge-Base/Technology/Platform/Platform Engineering.md",
-    "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/03-Log Sinks.md",
+    "Knowledge-Base/Technology/Platform/Internal Developer Platforms.md",
     "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/PCI-DSS-GCP-GKE.md",
+    "Pasted image 20260728162525.png",
+    "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/03-Log Sinks.md",
     "Pasted image 20260728145406.png",
     "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/07-Ops Agent.md",
     "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/06-Firewall Rules Logging.md",
