@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "4ca988d0a568b0ad",
+        "id": "52cddf935b252ac5",
         "type": "tabs",
         "children": [
           {
-            "id": "e456cb337c89d96b",
+            "id": "edf604fcc6e7204b",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/PCI-DSS-GCP-GKE.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "PCI-DSS-GCP-GKE"
             }
           }
         ]
@@ -201,16 +205,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e6f7edfe8a86978e",
+  "active": "edf604fcc6e7204b",
   "lastOpenFiles": [
+    "Essias-Agent/3_Knowledge_and_Memory/Experiences/Carrer/Why I Moved From Support To Cloud.md",
+    "Essias-Agent/PROFILE.md",
     "sandbox/sandbox.md",
+    "Knowledge-Base/Technology/System Communication/PHASE 6 - Tools/Messaging Brokers.md",
     "sandbox",
     "Essias-Agent/4_Agents/Agents/Atlas/Agent Definition.md",
     "Essias-Agent/4_Agents/Agents/Atlas",
     "Essias-Agent/4_Agents/Agents",
     "Essias-Agent/4_Agents",
     "Essias-Agent/3_Knowledge_and_Memory/Experiences/Kubernetes/ESO Adoption.md",
-    "Essias-Agent/3_Knowledge_and_Memory/Experiences/Carrer/Why I Moved From Support To Cloud.md",
     "Essias-Agent/3_Knowledge_and_Memory/Memory/Learning Progress.md",
     "Essias-Agent/3_Knowledge_and_Memory/Experiences/Kubernetes",
     "Essias-Agent/3_Knowledge_and_Memory/Experiences/Leadership",
@@ -237,8 +243,6 @@
     "Essias-Agent/Career/Resume Master.md",
     "Essias-Agent/Career/Projects.md",
     "Essias-Agent/Career/Professional Highlights.md",
-    "Essias-Agent/Career/Companies.md",
-    "Essias-Agent/Agents/Atlas/Agent Definition.md",
     "Pasted image 20260728163103.png",
     "Pasted image 20260728162525.png",
     "Pasted image 20260728145406.png",

@@ -11,3 +11,5 @@ One day the manager was looking form some worker to cloud team and him employees
 You are looking for someone and in other team have a guy that is teaching OCI to Alura.
 
 Then the manager and the FinOps/Cordinator call me and invite me to ingress this team. And now I'm here.
+
+File relation: [[PROFILE]]
