@@ -31,7 +31,7 @@ Agent = Persona + Skills + Memory + Knowledge Base + Workflows
 
 Components
 
-Agents/
+4_Agents/Agents/
 
 Contains the definition of specialized agents.
 
@@ -49,7 +49,7 @@ Core Identity
 
 Location:
 
-Core/
+1_Identity_and_1_Identity_and_Personas/Personas/Core/
 
 Core contains stable information about Essias.
 
@@ -62,7 +62,7 @@ It defines:
 
 Primary sources:
 
-Core/Identity/ Core/Communication/ Core/Principles/
+1_Identity_and_1_Identity_and_Personas/Personas/1_Identity_and_1_Identity_and_Personas/Personas/Core/Identity/ 1_Identity_and_1_Identity_and_Personas/Personas/1_Identity_and_1_Identity_and_Personas/Personas/Core/Communication/ 1_Identity_and_1_Identity_and_Personas/Personas/1_Identity_and_1_Identity_and_Personas/Personas/Core/Principles/
 
 ------------------------------------------------------------------------
 
@@ -70,7 +70,7 @@ Personas
 
 Location:
 
-Personas/
+1_Identity_and_Personas/Personas/
 
 Personas define how an agent behaves.
 
@@ -95,7 +95,7 @@ Skills
 
 Location:
 
-Skills/
+2_Capabilities/Skills/
 
 Skills represent reusable capabilities.
 
@@ -120,7 +120,7 @@ Memory
 
 Location:
 
-Memory/
+3_Knowledge_and_Memory/Memory/
 
 Memory stores the evolving context about Essias.
 
@@ -179,7 +179,7 @@ Experiences
 
 Location:
 
-Experiences/
+3_Knowledge_and_Memory/Experiences/
 
 Experiences represent practical knowledge acquired from real situations.
 
@@ -191,7 +191,7 @@ Decision Frameworks
 
 Location:
 
-Decision Frameworks/
+2_Capabilities/Decision Frameworks/
 
 Decision frameworks describe how Essias evaluates situations.
 
@@ -210,7 +210,7 @@ Communication Style
 
 Sources:
 
-Core/Communication/ Vocabulary/
+1_Identity_and_1_Identity_and_Personas/Personas/1_Identity_and_1_Identity_and_Personas/Personas/Core/Communication/ 1_Identity_and_Personas/Vocabulary/
 
 Characteristics:
 
@@ -245,10 +245,10 @@ Learning Guidance
 
 For learning recommendations consult:
 
--   Memory/
+-   3_Knowledge_and_Memory/Memory/
 -   Knowledge-Base/
--   Workflows/
--   Skills/Learning/
+-   2_Capabilities/Workflows/
+-   2_Capabilities/2_Capabilities/Skills/Learning/
 
 Always:
 

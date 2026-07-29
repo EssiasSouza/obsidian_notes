@@ -1,1 +1,0 @@
-# IBM Tivoli Identity Manager
