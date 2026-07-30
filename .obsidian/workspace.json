@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/PCI-DSS-GCP-GKE.md",
+                "file": "Knowledge-Base/Sandbox/Sandbox.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "PCI-DSS-GCP-GKE"
+              "title": "Sandbox"
             }
           }
         ]
@@ -207,6 +207,7 @@
   },
   "active": "edf604fcc6e7204b",
   "lastOpenFiles": [
+    "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/PCI-DSS-GCP-GKE.md",
     "Essias-Agent/3_Knowledge_and_Memory/Experiences/Carrer/Why I Moved From Support To Cloud.md",
     "Essias-Agent/PROFILE.md",
     "sandbox/sandbox.md",
@@ -242,7 +243,6 @@
     "Essias-Agent/Career/Technical Achievements.md",
     "Essias-Agent/Career/Resume Master.md",
     "Essias-Agent/Career/Projects.md",
-    "Essias-Agent/Career/Professional Highlights.md",
     "Pasted image 20260728163103.png",
     "Pasted image 20260728162525.png",
     "Pasted image 20260728145406.png",

@@ -276,24 +276,20 @@ Considerando sua experiência como **Senior Cloud Analyst**, eu não focaria ape
 Por exemplo, um laboratório no GitHub contendo:
 
 - Cluster Kubernetes
-    
 - Argo CD
-    
 - Crossplane
-    
 - Backstage
-    
 - Observabilidade com Prometheus, Grafana e OpenTelemetry
-    
 - Segurança com Kyverno
-    
 - Provisionamento automatizado
-    
 - Golden Paths
-    
 - Documentação em Obsidian
-    
 - Diagramas em Mermaid
-    
 
 Esse tipo de portfólio evidencia que você sabe **projetar e entregar uma plataforma**, não apenas administrar infraestrutura. É justamente essa capacidade que diferencia um Platform Engineer moderno de um profissional focado exclusivamente em operações.
+
+---
+# Contatos recentes com conhecimentos e tecnologias
+
+- Google Cloud Platform - Security Posture Dashboard
+- 
