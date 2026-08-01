@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/5.3-AI Infrastructure.md",
+                "file": "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/5.4-GPUs and Superclusters in OCI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "5.3-AI Infrastructure"
+              "title": "5.4-GPUs and Superclusters in OCI"
             }
           }
         ]
@@ -209,6 +209,8 @@
   },
   "active": "edf604fcc6e7204b",
   "lastOpenFiles": [
+    "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/5.3-AI Infrastructure.md",
+    "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/5.4-GPUs and Superclusters in OCI.md",
     "Knowledge-Base/Technology/SAP/SAP.md",
     "Knowledge-Base/Technology/Runtime Environments/Node.js/Node.js.md",
     "Knowledge-Base/Technology/Platform/WildFly.md",
@@ -233,8 +235,6 @@
     "Knowledge-Base/Technology/Cloud/GCP/Dataflow.md",
     "Knowledge-Base/Technology/Cloud/GCP/Cloud Vertex.md",
     "Knowledge-Base/Technology/Cloud/GCP/Cloud Run.md",
-    "Knowledge-Base/Technology/Cloud/GCP/BigQuery.md",
-    "Knowledge-Base/Technology/Cloud/Cloud Computing.md",
     "sandbox",
     "Essias-Agent/4_Agents/Agents/Atlas",
     "Essias-Agent/4_Agents/Agents",
