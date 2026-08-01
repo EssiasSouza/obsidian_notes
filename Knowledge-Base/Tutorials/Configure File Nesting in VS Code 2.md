@@ -1,6 +1,3 @@
-
-# Configure File Nesting in VS Code
-
 # Configure File Nesting in VS Code
 
 **File Nesting** allows you to group related files under a primary file in the Explorer, keeping your project structure cleaner and easier to navigate.
