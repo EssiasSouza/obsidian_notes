@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge-Base/Sandbox/Sandbox.md",
+                "file": "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/5.3-AI Infrastructure.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sandbox"
+              "title": "5.3-AI Infrastructure"
             }
           }
         ]
@@ -209,6 +209,14 @@
   },
   "active": "edf604fcc6e7204b",
   "lastOpenFiles": [
+    "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/5.2-ML Services Overview.md",
+    "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/5.3-AI Infrastructure.md",
+    "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/5.1-AI Services Overview.md",
+    "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/4.6-Customize LLMs with your data.md",
+    "Knowledge-Base/Sandbox/Sandbox.md",
+    "Knowledge-Base/Personal Communication/English.md",
+    "Essias-Agent/Personas/Mentor.md",
+    "Knowledge-Base/Tutorials/Configure File Nesting in VS Code.md",
     "Amenities/groceries.md",
     "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/PCI-DSS-GCP-GKE.md",
     "Essias-Agent/3_Knowledge_and_Memory/Experiences/Carrer/Why I Moved From Support To Cloud.md",
@@ -237,14 +245,6 @@
     "Essias-Agent/2_Capabilities/Skills/Learning/Study Planning.md",
     "Essias-Agent/2_Capabilities/Skills/Productivity/Routine Management.md",
     "Essias-Agent/2_Capabilities/Skills/Career/Curriculum Management.md",
-    "Essias-Agent/1_Identity_and_Personas/Core/Identity/About me.md",
-    "Essias-Agent/1_Identity_and_Personas/Core/Principles/Learning Principles.md",
-    "Essias-Agent/1_Identity_and_Personas/Core/Identity/Career Timeline.md",
-    "Essias-Agent/1_Identity_and_Personas/Personas/Mentor.md",
-    "Essias-Agent/Career/Certifications.md",
-    "Essias-Agent/Career/Technical Opportunities.md",
-    "Essias-Agent/Career/Technical Achievements.md",
-    "Essias-Agent/Career/Resume Master.md",
     "Pasted image 20260728163103.png",
     "Pasted image 20260728162525.png",
     "Pasted image 20260728145406.png",
