@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge-Base/Technology/Cloud/AWS/AWS CLI.md",
+                "file": "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/PCI-DSS-GCP-GKE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AWS CLI"
+              "title": "PCI-DSS-GCP-GKE"
             }
           }
         ]
@@ -53,8 +53,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "AWS_PROFILE",
-                "matchingCase": false,
+                "query": "",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -208,6 +207,10 @@
   },
   "active": "edf604fcc6e7204b",
   "lastOpenFiles": [
+    "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/Comparing Logging Storages.md",
+    "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/01-Cloud Audit Logs.md",
+    "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/03-Log Sinks.md",
+    "Knowledge-Base/Technology/Cloud/AWS/AWS CLI.md",
     "Knowledge-Base/Technology/Cloud/Kubernetes/External Secret Operator.md",
     "Knowledge-Base/Technology/Cloud/Kubernetes/Kubernetes Roadmap.md",
     "Knowledge-Base/Tutorials/ESO - External Secrets Operator Setup (SecretStore).md",
@@ -230,10 +233,6 @@
     "Knowledge-Base/Technology/Cloud/GCP/Pub-Sub.md",
     "Knowledge-Base/Technology/Cloud/GCP/VPC.md",
     "Knowledge-Base/Technology/Cloud/AWS/AWS - Certification - Practioner.md",
-    "Knowledge-Base/Technology/Cloud/AWS/AWS.md",
-    "Knowledge-Base/Technology/Cloud/AWS/SNS - SQS.md",
-    "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/5.1-AI Services Overview.md",
-    "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/5.2-ML Services Overview.md",
     "Essias-Agent/Personas",
     "sandbox",
     "Essias-Agent/4_Agents/Agents/Atlas",
