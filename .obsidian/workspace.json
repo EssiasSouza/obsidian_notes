@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge-Base/Technology/Cloud/Ingress/Kong.md",
+                "file": "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/03-Log Sinks.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Kong"
+              "title": "03-Log Sinks"
             }
           }
         ]
@@ -207,8 +207,12 @@
   },
   "active": "edf604fcc6e7204b",
   "lastOpenFiles": [
-    "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/PCI-DSS-GCP-GKE.md",
+    "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/04-BigQuery para Retenção e Análise.md",
+    "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/05-VPC Flow Logs.md",
+    "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/06-Firewall Rules Logging.md",
+    "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/07-Ops Agent.md",
     "Knowledge-Base/Technology/Cloud/Ingress/Kong.md",
+    "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/PCI-DSS-GCP-GKE.md",
     "Knowledge-Base/Technology/Cloud/Ingress",
     "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/Comparing Logging Storages.md",
     "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/01-Cloud Audit Logs.md",
@@ -230,10 +234,6 @@
     "Knowledge-Base/Technology/Cloud/GCP/Looker.md",
     "Knowledge-Base/Technology/Cloud/GCP/GCP - Certfication - 03-Professional Cloud Archect.md",
     "Knowledge-Base/Technology/Cloud/GCP/GCP - Google Cloud Platform.md",
-    "Knowledge-Base/Technology/Cloud/GCP/Google Secret Manager.md",
-    "Knowledge-Base/Technology/Cloud/GCP/IAM - GCP.md",
-    "Knowledge-Base/Technology/Cloud/GCP/Monitoring.md",
-    "Knowledge-Base/Technology/Cloud/GCP/Pub-Sub.md",
     "Essias-Agent/Personas",
     "sandbox",
     "Essias-Agent/4_Agents/Agents/Atlas",
