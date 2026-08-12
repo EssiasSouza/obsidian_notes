@@ -1,11 +1,11 @@
 Source: #source/internet_resources 
-Project: #project/artificial_intelligence
+Project: #project/infrastructure
 Areas: #area/work
-Subject: #subect/agentic_ai
+Subject: #subect/api_gateway
 Type: #type/learning 
 Learning priority: #priority/P2 
 Status: #status/to_learning
-Related: [[AI]]
+Related: [[Kong]]
 
 ---
 # Tutorial: Alterando uma Route do Kong pela Admin API

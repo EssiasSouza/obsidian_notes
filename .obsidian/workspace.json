@@ -207,8 +207,9 @@
   },
   "active": "edf604fcc6e7204b",
   "lastOpenFiles": [
-    "Knowledge-Base/Tutorials/How To Create An AI Agent.md",
+    "Knowledge-Base/Tutorials/Migrating Secrets from Google Cloud Secret Manager to Delinea Secret Server.md",
     "Knowledge-Base/Tutorials/Kong routes.md",
+    "Knowledge-Base/Tutorials/How To Create An AI Agent.md",
     "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/03-Log Sinks.md",
     "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/04-BigQuery para Retenção e Análise.md",
     "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/05-VPC Flow Logs.md",
@@ -233,7 +234,6 @@
     "Knowledge-Base/Technology/Cloud/GCP/Cloud Vertex.md",
     "Knowledge-Base/Technology/Cloud/GCP/Dataflow.md",
     "Knowledge-Base/Technology/Cloud/GCP/GCP - Certfication - 02-Associate Cloud engineer.md",
-    "Knowledge-Base/Technology/Cloud/GCP/Looker.md",
     "Essias-Agent/Personas",
     "sandbox",
     "Essias-Agent/4_Agents/Agents/Atlas",
