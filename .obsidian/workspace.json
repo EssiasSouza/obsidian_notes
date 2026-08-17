@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "0323f7096c38329a",
+        "id": "52cddf935b252ac5",
         "type": "tabs",
         "children": [
           {
-            "id": "d5aeec2669dd0c4c",
+            "id": "edf604fcc6e7204b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Knowledge-Base/Tutorials/GCP - Arquitetura de Logging para PCI-DSS.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "GCP - Arquitetura de Logging para PCI-DSS"
             }
           }
         ]
@@ -203,11 +207,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d5aeec2669dd0c4c",
+  "active": "edf604fcc6e7204b",
   "lastOpenFiles": [
     "Essias-Other-Learnings/Video Edit/FFmpeg.md",
-    "Knowledge-Base/Tutorials/GCP - Arquitetura de Logging para PCI-DSS.md",
     "Knowledge-Base/Tutorials/Kong routes.md",
+    "Knowledge-Base/Tutorials/GCP - Arquitetura de Logging para PCI-DSS.md",
     "Knowledge-Base/Tutorials/Migrating Secrets from Google Cloud Secret Manager to Delinea Secret Server.md",
     "Knowledge-Base/Tutorials/How To Create An AI Agent.md",
     "Knowledge-Base/Compliance/PCI-DSS/GCP - GKE/03-Log Sinks.md",
