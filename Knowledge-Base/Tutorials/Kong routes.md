@@ -211,7 +211,7 @@ Quando não sabemos o nome exato do Service ou da Route, podemos consultar as Ro
 Exemplo:
 
 ```bash
-curl -s 'http://127.0.0.1:8001/routes?size=1000'
+curl -s 'http://127.0.0.1:8001/routes?size=1000' | jq
 ```
 
 Como o retorno pode ser enorme, podemos procurar um trecho conhecido do endpoint:
