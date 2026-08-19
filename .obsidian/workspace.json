@@ -11,10 +11,14 @@
             "id": "d5aeec2669dd0c4c",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Amenities/Trumpet.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Trumpet"
             }
           }
         ]
@@ -205,6 +209,8 @@
   },
   "active": "d5aeec2669dd0c4c",
   "lastOpenFiles": [
+    "Amenities/Task Notes.md",
+    "Amenities/Trumpet.md",
     "Essias-Other-Learnings/Video Edit/FFmpeg.md",
     "Knowledge-Base/Tutorials/GCP - Arquitetura de Logging para PCI-DSS.md",
     "Knowledge-Base/Tutorials/Kong routes.md",
@@ -230,8 +236,6 @@
     "Knowledge-Base/Technology/Cloud/Kubernetes/Calico.md",
     "Knowledge-Base/Technology/Cloud/Kubernetes/CSI - Cloud Storage Interface.md",
     "Knowledge-Base/Technology/Cloud/GCP/BigQuery.md",
-    "Knowledge-Base/Technology/Cloud/GCP/Cloud Run.md",
-    "Knowledge-Base/Technology/Cloud/GCP/Cloud Vertex.md",
     "Essias-Agent/Personas",
     "sandbox",
     "Essias-Agent/4_Agents/Agents/Atlas",
