@@ -13,15 +13,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Amenities/Trumpet.md",
+                "file": "Knowledge-Base/Technology/Dev/Appian/Appian 1.2 - Sobre o Appian.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Trumpet"
+              "title": "Appian 1.2 - Sobre o Appian"
+            }
+          },
+          {
+            "id": "68c713786db5b4f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Knowledge-Base/Technology/Dev/Appian/Untitled.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -207,10 +222,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d5aeec2669dd0c4c",
+  "active": "68c713786db5b4f9",
   "lastOpenFiles": [
-    "Amenities/Task Notes.md",
+    "Knowledge-Base/Technology/Dev/Appian/Appian 2.1 - Create your first Application.md",
+    "Knowledge-Base/Technology/Dev/Appian/Untitled.md",
+    "Knowledge-Base/Technology/Dev/Appian/Appian 1.4 - Appian Community Access - Direct Access 2025.md",
+    "Knowledge-Base/Technology/Dev/Appian/Appian 1.2 - Sobre o Appian.md",
+    "Knowledge-Base/Technology/Dev/Appian/Appian 1.3 - Arquitetura.md",
+    "Knowledge-Base/Technology/Dev/Appian/Appian 1.1 - Introdução.md",
     "Amenities/Trumpet.md",
+    "Knowledge-Base/Technology/Dev/Appian",
+    "Amenities/Task Notes.md",
     "Essias-Other-Learnings/Video Edit/FFmpeg.md",
     "Knowledge-Base/Tutorials/GCP - Arquitetura de Logging para PCI-DSS.md",
     "Knowledge-Base/Tutorials/Kong routes.md",
@@ -230,12 +252,6 @@
     "Knowledge-Base/Technology/Cloud/Kubernetes/External Secret Operator.md",
     "Knowledge-Base/Technology/Cloud/Kubernetes/Kubernetes Roadmap.md",
     "Knowledge-Base/Tutorials/ESO - External Secrets Operator Setup (SecretStore).md",
-    "Knowledge-Base/Tutorials/ESO - External Secrets Operator Setup (ClusterSecretStore).md",
-    "Knowledge-Base/Sandbox/Sandbox.md",
-    "Knowledge-Base/Technology/Cloud/Kubernetes/Azure Key Vault + CSI driver.md",
-    "Knowledge-Base/Technology/Cloud/Kubernetes/Calico.md",
-    "Knowledge-Base/Technology/Cloud/Kubernetes/CSI - Cloud Storage Interface.md",
-    "Knowledge-Base/Technology/Cloud/GCP/BigQuery.md",
     "Essias-Agent/Personas",
     "sandbox",
     "Essias-Agent/4_Agents/Agents/Atlas",
@@ -244,7 +260,6 @@
     "Essias-Agent/3_Knowledge_and_Memory/Experiences/Kubernetes",
     "Essias-Agent/3_Knowledge_and_Memory/Experiences/Leadership",
     "Essias-Agent/3_Knowledge_and_Memory/Experiences/GCP",
-    "Essias-Agent/3_Knowledge_and_Memory/Experiences/Carrer",
     "Pasted image 20260728163103.png",
     "Pasted image 20260728162525.png",
     "Pasted image 20260728145406.png",
