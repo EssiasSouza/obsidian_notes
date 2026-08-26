@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge-Base/Technology/Linux/Red Hat/Oracle Linux 9 - Basic Security and SSH Configuration.md",
+                "file": "Knowledge-Base/Technology/Cloud/Kubernetes/openBao - Credentials Platform.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Oracle Linux 9 - Basic Security and SSH Configuration"
+              "title": "openBao - Credentials Platform"
             }
           }
         ]
@@ -80,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 571.5
+    "width": 448.5
   },
   "right": {
     "id": "c99476088aeb1986",
@@ -209,8 +209,8 @@
   },
   "active": "14b7b9cf5c287cde",
   "lastOpenFiles": [
-    "Knowledge-Base/Technology/Linux/Red Hat/How to Rename a Network Interface.md",
     "Knowledge-Base/Technology/Linux/Red Hat/Oracle Linux 9 - Basic Security and SSH Configuration.md",
+    "Knowledge-Base/Technology/Linux/Red Hat/How to Rename a Network Interface.md",
     "Knowledge-Base/Technology/Linux/Red Hat/Red Hat.md",
     "Knowledge-Base/Tutorials/Samba AD DC Configuration on Ubuntu.md",
     "Knowledge-Base/Tutorials/Configure File Nesting in VS Code.md",
