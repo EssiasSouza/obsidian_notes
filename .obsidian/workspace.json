@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/1.3-AI vs ML vs DL.md",
+                "file": "Knowledge-Base/Technology/Cloud/Ingress/Kong Gateway - Troubleshooting e Diagnóstico.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.3-AI vs ML vs DL"
+              "title": "Kong Gateway - Troubleshooting e Diagnóstico"
             }
           }
         ]
@@ -209,6 +209,7 @@
   },
   "active": "14b7b9cf5c287cde",
   "lastOpenFiles": [
+    "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/1.3-AI vs ML vs DL.md",
     "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/1.2-AI - Tasks and Data.md",
     "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/1.1-Introduction to AI.md",
     "Knowledge-Base/Sandbox/Sandbox.md",
@@ -236,7 +237,6 @@
     "Knowledge-Base/Technology/Dev/Appian/Appian 5.4 - Understanding XSD.md",
     "Knowledge-Base/Technology/Dev/Appian/Appian 5.2 - CDT ( Custom Data Types ).md",
     "Knowledge-Base/Technology/Dev/Appian/Appian 5.1 - Database table creation and its use.md",
-    "Knowledge-Base/Technology/Dev/Appian/Appian 4.3 - Building a Form.md",
     "Knowledge-Base/Technology/Dev/Appian",
     "Knowledge-Base/Technology/Cloud/Ingress",
     "Essias-Agent/Personas",

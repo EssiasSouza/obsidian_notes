@@ -304,4 +304,4 @@ Subject: #subect/api_gateway
 Type: #type/learning 
 Learning priority: #priority/P2 
 Status: #status/to_learning
-Related: [[Kong]]
+Related: [[Knowledge-Base/Technology/Cloud/Ingress/# Kong Gateway - Troubleshooting e Diagnóstico]]
