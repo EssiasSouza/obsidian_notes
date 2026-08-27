@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge-Base/Technology/Cloud/Kubernetes/openBao - Credentials Platform.md",
+                "file": "Knowledge-Base/Tutorials/Corrigindo o warning de version no provider do Terraform.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "openBao - Credentials Platform"
+              "title": "Corrigindo o warning de version no provider do Terraform"
             }
           }
         ]
@@ -209,6 +209,9 @@
   },
   "active": "14b7b9cf5c287cde",
   "lastOpenFiles": [
+    "Knowledge-Base/Tutorials/GKE - Installing External Secrets Operator.md",
+    "Knowledge-Base/Tutorials/Corrigindo o warning de version no provider do Terraform.md",
+    "Knowledge-Base/Technology/Cloud/Kubernetes/openBao - Credentials Platform.md",
     "Knowledge-Base/Technology/Linux/Red Hat/Oracle Linux 9 - Basic Security and SSH Configuration.md",
     "Knowledge-Base/Technology/Linux/Red Hat/How to Rename a Network Interface.md",
     "Knowledge-Base/Technology/Linux/Red Hat/Red Hat.md",
@@ -232,9 +235,6 @@
     "Knowledge-Base/Technology/Dev/Appian/Appian 3.2 - Appian Functions.md",
     "Knowledge-Base/Technology/Dev/Appian/Appian 3.1 - Appian Expressions.md",
     "Knowledge-Base/Technology/Dev/Appian/Appian 2.3 - Application Security.md",
-    "Knowledge-Base/Technology/Dev/Appian/Appian 2.2 - Appian Groups.md",
-    "Knowledge-Base/Technology/Dev/Appian/Appian 2.1 - Create your first Application.md",
-    "Knowledge-Base/Technology/Dev/Appian/Appian 1.3 - Arquitetura.md",
     "Knowledge-Base/Technology/Dev/Appian",
     "Knowledge-Base/Technology/Cloud/Ingress",
     "Essias-Agent/Personas",
