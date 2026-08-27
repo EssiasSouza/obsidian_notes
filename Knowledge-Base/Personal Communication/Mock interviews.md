@@ -1,13 +1,3 @@
-Source: #source/internet_resources
-Project: #project/communication
-Areas: #area/work #area/personal
-Subject: #subject/language
-Type: #type/learning 
-Learning priority: #priority/P1 
-Status: #status/learning 
-Related: [[English]]
-
----
 Você treina:
 
 - inglês técnico
@@ -32,3 +22,13 @@ Ele contrata:
 
 E honestamente?  
 Você já demonstra bastante maturidade técnica nas perguntas que faz.
+
+---
+Source: #source/internet_resources
+Project: #project/communication
+Areas: #area/work #area/personal
+Subject: #subject/language
+Type: #type/learning 
+Learning priority: #priority/P1 
+Status: #status/learning 
+Related: [[English]]

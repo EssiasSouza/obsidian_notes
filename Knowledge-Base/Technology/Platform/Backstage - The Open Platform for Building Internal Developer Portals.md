@@ -1,13 +1,3 @@
-Source: #source/internet_resources 
-Project: #project/platform 
-Areas: #area/work
-Subject: #subject/infraestructure
-Type: #type/idea
-Learning priority: #priority/P0 
-Status: #status/learning  
-Related: [[Platform Engineering]]
-
----
 # Backstage: The Open Platform for Building Internal Developer Portals
 
 Modern engineering teams use dozens, sometimes hundreds, of tools every day. Source code lives in Git repositories, deployments happen through CI/CD pipelines, infrastructure is managed in cloud platforms, documentation is spread across multiple systems, and monitoring relies on several observability tools. As organizations grow, developers spend more time searching for information than building software.
@@ -218,3 +208,13 @@ Backstage is much more than a documentation portal. It is a platform that unifie
 By bringing together documentation, service discovery, templates, infrastructure visibility, and integrations, Backstage helps engineering teams spend less time searching for information and more time building reliable software.
 
 As Platform Engineering continues to evolve, Internal Developer Portals are becoming a foundational component of modern software organizations. Backstage has established itself as the leading open source solution in this space, offering flexibility, extensibility, and a strong community that continues to expand its ecosystem.
+
+---
+Source: #source/internet_resources 
+Project: #project/platform 
+Areas: #area/work
+Subject: #subject/infraestructure
+Type: #type/idea
+Learning priority: #priority/P0 
+Status: #status/learning  
+Related: [[Platform Engineering]]

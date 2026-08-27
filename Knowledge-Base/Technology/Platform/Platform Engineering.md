@@ -1,13 +1,3 @@
-Source: #source/internet_resources 
-Project: #project/platform 
-Areas: #area/work
-Subject: #subject/infraestructure
-Type: #type/idea
-Learning priority: #priority/P0 
-Status: #status/learning  
-Related: 
-
----
 ## Platform Engineering
 
 Welcome to **Platform Engineering**. In this section, you will learn about the basic concepts of Platform Engineering and how it helps developers create, deploy, and manage applications more easily in AWS environments.
@@ -65,3 +55,13 @@ Our EKS capabilities for Argo CD is configured to deploy these additional Kubern
 - **Kargo** - A continuous promotion orchestration layer that complements Argo CD by streamlining multi-stage application promotion using GitOps principles
 
 Also read about [[Cloud Native Operational Excellence (CNOE)]]
+
+---
+Source: #source/internet_resources 
+Project: #project/platform 
+Areas: #area/work
+Subject: #subject/infraestructure
+Type: #type/idea
+Learning priority: #priority/P0 
+Status: #status/learning  
+Related: 

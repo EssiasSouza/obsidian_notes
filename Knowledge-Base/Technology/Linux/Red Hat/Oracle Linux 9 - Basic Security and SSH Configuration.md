@@ -1,13 +1,3 @@
-Source: #source/internet_resources 
-Project: #project/devops
-Areas: #area/work
-Subject: #subject/operational_systems
-Type: #type/learning 
-Learning priority: #priority/P1 
-Status: #status/to_learning 
-Related: [[Linux Roadmap]]
-
----
 # Oracle Linux 9: Basic Security and SSH Configuration
 
 ## Overview
@@ -444,3 +434,13 @@ A user that is not a member of `remoto` will not be allowed to authenticate thro
 This configuration intentionally reduces several layers of host security by disabling SELinux and firewalld. It may be appropriate for a controlled lab, development environment, troubleshooting scenario, or a server where these controls are managed elsewhere, such as through cloud network security controls.
 
 For a production server, it is generally preferable to keep SELinux and host-level firewall protection enabled unless there is a documented reason to disable them.
+
+---
+Source: #source/internet_resources 
+Project: #project/devops
+Areas: #area/work
+Subject: #subject/operational_systems
+Type: #type/learning 
+Learning priority: #priority/P1 
+Status: #status/to_learning 
+Related: [[Linux Roadmap]]

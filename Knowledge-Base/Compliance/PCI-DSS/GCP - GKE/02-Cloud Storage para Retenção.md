@@ -1,14 +1,3 @@
-Source: #source/internet_resources
-Project: #project/compliance
-Areas: #area/work
-Subject: #subject/pci-dss
-Type: #type/learning
-Learning priority: #priority/P2
-Status: #status/learning
-Related: [[PCI-DSS-GCP-GKE]]
-
----
-
 # Cloud Storage para Retenção
 
 ## Objetivo
@@ -166,3 +155,13 @@ Podem ser obtidas capturas de tela mostrando:
 - os Log Sinks deverão exportar os logs de auditoria para esse bucket;
 - no ambiente GKE, o bucket deve possuir política de retenção de **365 dias**;
 - o Cloud Storage é utilizado como mecanismo para atender aos requisitos de retenção dos registros previstos na família de requisitos 10 do PCI DSS.
+
+---
+Source: #source/internet_resources
+Project: #project/compliance
+Areas: #area/work
+Subject: #subject/pci-dss
+Type: #type/learning
+Learning priority: #priority/P2
+Status: #status/learning
+Related: [[PCI-DSS-GCP-GKE]]

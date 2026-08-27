@@ -1,13 +1,3 @@
-Source: #source/internet_resources
-Project: #project/devops 
-Areas: #area/work
-Subject: #subject/cyber_security
-Type: #type/idea
-Learning priority: #priority/P1
-Status: #status/learning 
-Related: [[Roadmap - Tech]]
-
----
 - IAM
 - secrets
 - network policies
@@ -18,3 +8,13 @@ Related: [[Roadmap - Tech]]
 - compliance
 - Kubernetes security
 - supply chain security
+
+---
+Source: #source/internet_resources
+Project: #project/devops 
+Areas: #area/work
+Subject: #subject/cyber_security
+Type: #type/idea
+Learning priority: #priority/P1
+Status: #status/learning 
+Related: [[Roadmap - Tech]]

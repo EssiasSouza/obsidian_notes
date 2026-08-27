@@ -1,3 +1,6 @@
+# Nvidia Run:ai
+
+---
 Source: #source/internet_resources 
 Project: #project/artificial_intelligence
 Areas: #area/work
@@ -6,7 +9,3 @@ Type: #type/learning
 Learning priority: #priority/P2 
 Status: #status/to_learning 
 Related: [[AI]]
-
----
-# Nvidia Run:ai
-

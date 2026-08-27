@@ -1,14 +1,3 @@
-Source: #source/internet_resources
-Project: #project/compliance
-Areas: #area/work
-Subject: #subject/pci-dss
-Type: #type/learning
-Learning priority: #priority/P2
-Status: #status/learning
-Related: [[PCI-DSS-GCP-GKE]]
-
----
-
 # Log Sinks
 
 ## Objetivo
@@ -201,3 +190,13 @@ Podem ser obtidas capturas de tela mostrando:
 - BigQuery pode ser utilizado para análises forenses e consultas rápidas;
 - no ambiente GKE existe um filtro específico para exportação dos logs do cluster;
 - os Log Sinks são utilizados em diversos requisitos da família 10 do PCI DSS como mecanismo de centralização e retenção dos registros de auditoria.
+
+---
+Source: #source/internet_resources
+Project: #project/compliance
+Areas: #area/work
+Subject: #subject/pci-dss
+Type: #type/learning
+Learning priority: #priority/P2
+Status: #status/learning
+Related: [[PCI-DSS-GCP-GKE]]

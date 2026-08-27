@@ -1,13 +1,3 @@
-Source: #source/internet_resources 
-Project: #project/devops
-Areas: #area/work
-Subject: #subject/operational_systems
-Type: #type/learning 
-Learning priority: #priority/P1 
-Status: #status/to_learning 
-Related: [[Linux Roadmap]]
-
----
 # How to Rename a Network Interface from `enp0s3` to `eth0` on Oracle Linux 9
 
 ## Overview
@@ -540,3 +530,13 @@ Before rebooting a production or remote server, verify:
 * [ ] You have console access or another recovery method before rebooting a remote server.
 
 The key point is: **do not use `ip link set` as the persistent configuration mechanism.** On Oracle Linux 9, configure the boot-time interface naming and make the NetworkManager profile match the resulting interface name.
+
+---
+Source: #source/internet_resources 
+Project: #project/devops
+Areas: #area/work
+Subject: #subject/operational_systems
+Type: #type/learning 
+Learning priority: #priority/P1 
+Status: #status/to_learning 
+Related: [[Linux Roadmap]]

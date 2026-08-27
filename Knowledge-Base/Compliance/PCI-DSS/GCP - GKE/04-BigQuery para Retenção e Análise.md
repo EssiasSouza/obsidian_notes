@@ -1,14 +1,3 @@
-Source: #source/internet_resources
-Project: #project/compliance
-Areas: #area/work
-Subject: #subject/pci-dss
-Type: #type/learning
-Learning priority: #priority/P2
-Status: #status/learning
-Related: [[PCI-DSS-GCP-GKE]]
-
----
-
 # BigQuery para Retenção e Análise
 
 ## Objetivo
@@ -230,3 +219,13 @@ Podem ser obtidas capturas de tela mostrando:
 - possibilita a criação de consultas SQL para identificação de padrões suspeitos;
 - suporta Scheduled Queries para automatizar análises periódicas;
 - os relatórios produzidos servem como evidências da revisão prevista pelos requisitos da família 10 do PCI DSS.
+
+---
+Source: #source/internet_resources
+Project: #project/compliance
+Areas: #area/work
+Subject: #subject/pci-dss
+Type: #type/learning
+Learning priority: #priority/P2
+Status: #status/learning
+Related: [[PCI-DSS-GCP-GKE]]

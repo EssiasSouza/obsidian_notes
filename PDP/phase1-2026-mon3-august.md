@@ -1,13 +1,3 @@
-Source: #source/internet_resources 
-Project: #project/pdp
-Areas: #area/work 
-Subject: #subject/professional 
-Type: #type/document
-Learning priority: #priority/P0
-Status: #status/learning 
-Related: [[PDP]]
-
----
 # August 2026 - Phase 1 Execution Plan
 
 ## Monthly Objective
@@ -167,3 +157,13 @@ At the end of August, evaluate:
 | Communication                | Am I improving my ability to explain cloud native architectures in English? |
 
 The results of this review will guide the refinement of September planning.
+
+---
+Source: #source/internet_resources 
+Project: #project/pdp
+Areas: #area/work 
+Subject: #subject/professional 
+Type: #type/document
+Learning priority: #priority/P0
+Status: #status/learning 
+Related: [[PDP]]

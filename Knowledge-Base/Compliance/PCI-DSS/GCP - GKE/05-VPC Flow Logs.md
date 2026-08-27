@@ -1,13 +1,3 @@
-Source: #source/internet_resources
-Project: #project/compliance
-Areas: #area/work
-Subject: #subject/pci-dss
-Type: #type/learning
-Learning priority: #priority/P2
-Status: #status/learning
-Related: [[PCI-DSS-GCP-GKE]]
-
----
 # VPC Flow Logs
 
 ## Objetivo
@@ -166,3 +156,13 @@ Podem ser obtidas capturas de tela mostrando:
 - no ambiente GKE Autopilot, a configuração deve ser validada na sub-rede utilizada pelo cluster;
 - os VPC Flow Logs apoiam a detecção de anomalias exigida pelo PCI DSS;
 - juntamente com o Firewall Rules Logging, fornecem visibilidade sobre o tráfego de rede e auxiliam na identificação de atividades suspeitas.
+
+---
+Source: #source/internet_resources
+Project: #project/compliance
+Areas: #area/work
+Subject: #subject/pci-dss
+Type: #type/learning
+Learning priority: #priority/P2
+Status: #status/learning
+Related: [[PCI-DSS-GCP-GKE]]

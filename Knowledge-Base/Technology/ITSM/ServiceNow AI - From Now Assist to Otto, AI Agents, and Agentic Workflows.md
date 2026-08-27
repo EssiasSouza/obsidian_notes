@@ -1,13 +1,3 @@
-Source: #source/internet_resources 
-Project: #project/personal 
-Areas: #area/work
-Subject: #subject/professional 
-Type: #type/article 
-Learning priority: #priority/P3 
-Status: #status/in_process
-Related: 
-
----
 # ServiceNow AI: From Now Assist to Otto, AI Agents, and Agentic Workflows
 
 [How to Activate Your Now Assist for ITSM](https://www.youtube.com/watch?v=RUh5mYXbDLA&t=320s)
@@ -1039,3 +1029,13 @@ The most important idea to remember is:
 For ServiceNow professionals, this means the platform is evolving from a system where developers primarily define deterministic processes into a platform where developers also design **AI workers, their tools, their context, their boundaries, and the way they collaborate with humans and other agents**.
 
 That is the real significance of the move from Now Assist toward Otto and the broader ServiceNow AI platform.
+
+---
+Source: #source/internet_resources 
+Project: #project/personal 
+Areas: #area/work
+Subject: #subject/professional 
+Type: #type/article 
+Learning priority: #priority/P3 
+Status: #status/in_process
+Related: 

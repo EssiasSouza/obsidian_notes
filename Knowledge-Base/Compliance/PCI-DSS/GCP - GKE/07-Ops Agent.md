@@ -1,14 +1,3 @@
-Source: #source/internet_resources
-Project: #project/compliance
-Areas: #area/work
-Subject: #subject/pci-dss
-Type: #type/learning
-Learning priority: #priority/P2
-Status: #status/learning
-Related: [[PCI-DSS-GCP-GKE]]
-
----
-
 # Ops Agent
 
 ## Objetivo
@@ -245,3 +234,13 @@ Para comprovação durante uma auditoria, recomenda-se registrar:
 - :contentReference[oaicite:12]{index=12}
 - :contentReference[oaicite:13]{index=13}
 - :contentReference[oaicite:14]{index=14}
+
+---
+Source: #source/internet_resources
+Project: #project/compliance
+Areas: #area/work
+Subject: #subject/pci-dss
+Type: #type/learning
+Learning priority: #priority/P2
+Status: #status/learning
+Related: [[PCI-DSS-GCP-GKE]]

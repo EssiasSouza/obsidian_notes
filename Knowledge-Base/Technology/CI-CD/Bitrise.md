@@ -1,3 +1,6 @@
+
+
+---
 Source: #source/internet_resources 
 Project: #project/devops
 Areas: #area/work
@@ -6,5 +9,3 @@ Type: #type/learning
 Learning priority: #priority/P3  
 Status: #status/to_learning 
 Related: [[Knowledge-Base/Technology/CI-CD/CI-CD]]
-
----

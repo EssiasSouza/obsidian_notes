@@ -1,13 +1,3 @@
-Source: #source/internet_resources 
-Project: #project/youtube_channel
-Areas: #area/work
-Subject: #subject/video_edit
-Type: #type/idea
-Learning priority: #priority/P0 
-Status: #status/in_process 
-Related: 
-
----
 # First flow
 
 Open a new project
@@ -16,3 +6,12 @@ Open a new project
 
 ## Commands and shortcuts
 
+---
+Source: #source/internet_resources 
+Project: #project/youtube_channel
+Areas: #area/work
+Subject: #subject/video_edit
+Type: #type/idea
+Learning priority: #priority/P0 
+Status: #status/in_process 
+Related: 

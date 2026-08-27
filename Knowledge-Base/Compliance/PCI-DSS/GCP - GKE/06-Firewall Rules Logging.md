@@ -1,14 +1,3 @@
-Source: #source/internet_resources
-Project: #project/compliance
-Areas: #area/work
-Subject: #subject/pci-dss
-Type: #type/learning
-Learning priority: #priority/P2
-Status: #status/learning
-Related: [[PCI-DSS-GCP-GKE]]
-
----
-
 # Firewall Rules Logging
 
 ## Objetivo
@@ -121,3 +110,13 @@ Uma evidência possível, de acordo com o próprio contexto do documento, é dem
 - sua finalidade é apoiar a detecção de tentativas de intrusão;
 - esse recurso complementa os VPC Flow Logs no monitoramento da rede;
 - o documento não apresenta instruções detalhadas de configuração nem comandos para habilitação do recurso.
+
+---
+Source: #source/internet_resources
+Project: #project/compliance
+Areas: #area/work
+Subject: #subject/pci-dss
+Type: #type/learning
+Learning priority: #priority/P2
+Status: #status/learning
+Related: [[PCI-DSS-GCP-GKE]]

@@ -1,14 +1,3 @@
-Source: #source/internet_resources 
-Project: #project/devops 
-Areas: #area/work
-Subject: #subject/cloud 
-Type: #type/learning 
-Learning priority: #priority/P3 
-Status: #status/learning 
-Related: [[Cloud Computing]]
-
-
----
 Openbao is a fork from HashiCorp Vault. The project now is supported by OpenSSF and Linux Foundation.
 
 The tool solves problems as:
@@ -83,3 +72,13 @@ Is used together:
 
 - [OpenBao Docs](https://openbao.org/docs/?utm_source=chatgpt.com)
 - [GitHub do OpenBao](https://github.com/openbao/openbao?utm_source=chatgpt.com)
+
+---
+Source: #source/internet_resources 
+Project: #project/devops 
+Areas: #area/work
+Subject: #subject/cloud 
+Type: #type/learning 
+Learning priority: #priority/P3 
+Status: #status/learning 
+Related: [[Cloud Computing]]

@@ -1,13 +1,3 @@
-Source: #source/internet_resources 
-Project: #project/web
-Areas: #area/work
-Subject: #subect/application
-Type: #type/learning 
-Learning priority: #priority/P3 
-Status: #status/learning
-Related: [[Vercel]]
-
----
 # Framework ASTRO
 
 Astro is a modern framework for building websites and web applications focused on performance.
@@ -186,3 +176,12 @@ After that, the pipeline may:
 * deploy to Kubernetes
 * etc.
 
+---
+Source: #source/internet_resources 
+Project: #project/web
+Areas: #area/work
+Subject: #subect/application
+Type: #type/learning 
+Learning priority: #priority/P3 
+Status: #status/learning
+Related: [[Vercel]]

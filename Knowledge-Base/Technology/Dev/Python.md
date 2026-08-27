@@ -1,13 +1,3 @@
-Source: #source/internet_resources 
-Project: #project/python
-Areas: #area/work
-Subject: #subect/python
-Type: #type/learning 
-Learning priority: #priority/P2 
-Status: #status/learning
-Related: 
-
----
 # logging
 
 ```
@@ -21,3 +11,13 @@ logging.basicConfig(
 
 logging.info("Application started")
 ```
+
+---
+Source: #source/internet_resources 
+Project: #project/python
+Areas: #area/work
+Subject: #subect/python
+Type: #type/learning 
+Learning priority: #priority/P2 
+Status: #status/learning
+Related: 

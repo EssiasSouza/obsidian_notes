@@ -1,13 +1,3 @@
-Source: #source/internet_resources 
-Project: #project/pdp
-Areas: #area/work 
-Subject: #subject/professional 
-Type: #type/document
-Learning priority: #priority/P0
-Status: #status/learning 
-Related: [[PDP]]
-
----
 # November 2026 - Phase 1 Execution Plan
 
 ## Monthly Objective
@@ -171,3 +161,13 @@ At the end of November, evaluate:
 | Engineering Responsibility | Am I thinking more carefully about operational impact and protection boundaries? |
 
 The results of this review will guide the refinement of December planning.
+
+---
+Source: #source/internet_resources 
+Project: #project/pdp
+Areas: #area/work 
+Subject: #subject/professional 
+Type: #type/document
+Learning priority: #priority/P0
+Status: #status/learning 
+Related: [[PDP]]

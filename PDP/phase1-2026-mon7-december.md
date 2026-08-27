@@ -1,13 +1,3 @@
-Source: #source/internet_resources 
-Project: #project/pdp
-Areas: #area/work 
-Subject: #subject/professional 
-Type: #type/document
-Learning priority: #priority/P0
-Status: #status/learning 
-Related: [[PDP]]
-
----
 # December 2026 - Phase 1 Execution Plan
 
 ## Monthly Objective
@@ -195,3 +185,13 @@ At the end of December, evaluate:
 | Strategic Direction        | What should be adjusted before starting Phase 2?                             |
 
 The outcome of this review will determine the refinement and priorities of the next seven-month phase.
+
+---
+Source: #source/internet_resources 
+Project: #project/pdp
+Areas: #area/work 
+Subject: #subject/professional 
+Type: #type/document
+Learning priority: #priority/P0
+Status: #status/learning 
+Related: [[PDP]]

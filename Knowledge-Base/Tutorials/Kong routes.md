@@ -1,13 +1,3 @@
-Source: #source/internet_resources 
-Project: #project/infrastructure
-Areas: #area/work
-Subject: #subect/api_gateway
-Type: #type/learning 
-Learning priority: #priority/P2 
-Status: #status/to_learning
-Related: [[Kong]]
-
----
 # Tutorial: Alterando uma Route do Kong pela Admin API
 
 # Alterando um endpoint no Kong com segurança
@@ -305,3 +295,13 @@ Alterar um endpoint no Kong não significa simplesmente criar uma nova Route.
 O primeiro passo é descobrir **qual Route atende aquele endpoint**. Depois, devemos verificar a configuração existente e alterar somente o que realmente mudou.
 
 Essa abordagem reduz bastante o risco de modificar ou remover acidentalmente outros endpoints que compartilham a mesma Route.
+
+---
+Source: #source/internet_resources 
+Project: #project/infrastructure
+Areas: #area/work
+Subject: #subect/api_gateway
+Type: #type/learning 
+Learning priority: #priority/P2 
+Status: #status/to_learning
+Related: [[Kong]]

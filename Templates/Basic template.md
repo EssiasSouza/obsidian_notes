@@ -1,3 +1,6 @@
+
+
+---
 Source: 
 Project: 
 Areas: #area/work
@@ -6,5 +9,3 @@ Type: #type/idea
 Learning priority: 
 Status: 
 Related: 
-
----

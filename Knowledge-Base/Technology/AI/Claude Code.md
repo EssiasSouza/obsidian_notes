@@ -1,13 +1,3 @@
-Source: #source/anthropic_
-Project: #project/artificial_intelligence
-Areas: #area/work
-Subject: #subect/agentic_ai
-Type: #type/learning 
-Learning priority: #priority/P2
-Status: #status/to_learning 
-Related: [[AI]] 
-
----
 Padronização de contexto para IA conectar:
 
 - ferramentas
@@ -27,3 +17,13 @@ Claude code apply automatically in your code. It reads you code.
 
 Block 2
 Claude code runs in a terminal.
+
+---
+Source: #source/anthropic_
+Project: #project/artificial_intelligence
+Areas: #area/work
+Subject: #subect/agentic_ai
+Type: #type/learning 
+Learning priority: #priority/P2
+Status: #status/to_learning 
+Related: [[AI]] 

@@ -1,13 +1,3 @@
-Source: #source/internet_resources 
-Project: #project/pdp
-Areas: #area/work 
-Subject: #subject/professional 
-Type: #type/document
-Learning priority: #priority/P0
-Status: #status/learning 
-Related: [[PDP]]
-
----
 # June 2026 - Phase 1 Execution Plan
 
 ## Monthly Objective
@@ -157,3 +147,13 @@ At the end of June, evaluate:
 | Anxiety Reduction    | Do I feel more focused and less overwhelmed by the ecosystem?   |
 
 The result of this review will guide the refinement of July planning.
+
+---
+Source: #source/internet_resources 
+Project: #project/pdp
+Areas: #area/work 
+Subject: #subject/professional 
+Type: #type/document
+Learning priority: #priority/P0
+Status: #status/learning 
+Related: [[PDP]]

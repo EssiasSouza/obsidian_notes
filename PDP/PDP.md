@@ -1,13 +1,3 @@
-Source: #source/internet_resources 
-Project: #project/pdp
-Areas: #area/work 
-Subject: #subject/professional 
-Type: #type/document
-Learning priority: #priority/P0
-Status: #status/learning 
-Related: [[Longlife learning]]
-
----
 # Scheduling Phase 1
 
 - [[phase1-2026-mon1-june]]
@@ -147,3 +137,12 @@ The objective is to become:
 
 The long-term focus is sustainable growth, practical experience and international professional readiness.
 
+---
+Source: #source/internet_resources 
+Project: #project/pdp
+Areas: #area/work 
+Subject: #subject/professional 
+Type: #type/document
+Learning priority: #priority/P0
+Status: #status/learning 
+Related: [[Longlife learning]]

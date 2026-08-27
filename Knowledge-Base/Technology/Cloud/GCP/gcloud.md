@@ -1,13 +1,3 @@
-Source: #source/internet_resources  
-Project: #project/devops 
-Areas: #area/work
-Subject: #subject/cloud
-Type: #type/learning
-Learning priority: #priority/P2 
-Status: #status/to_learning 
-Related: [[GCP - Google Cloud Platform]]
-
----
 ### Issues
 
 ```
@@ -36,3 +26,13 @@ ModuleNotFoundError: No module named 'encodings'
 Reinstall Google Cloud SDK
 
 [Quickstart: Install the Google Cloud CLI  |  Google Cloud SDK  |  Google Cloud Documentation](https://docs.cloud.google.com/sdk/docs/install-sdk)
+
+---
+Source: #source/internet_resources  
+Project: #project/devops 
+Areas: #area/work
+Subject: #subject/cloud
+Type: #type/learning
+Learning priority: #priority/P2 
+Status: #status/to_learning 
+Related: [[GCP - Google Cloud Platform]]

@@ -1,11 +1,3 @@
-Source: #source/internet_resources 
-Project: #project/devops
-Areas: #area/work
-Subject: #subject/git 
-Type: #type/tutorial
-Related: [[Git]]
-
----
 # Git & GitHub Workflow Guide for a Node.js Project
 
 This guide demonstrates a complete Git and GitHub workflow using a simple Node.js project as an example.
@@ -415,3 +407,11 @@ Insights
 ```
 
 When vulnerabilities are detected, Dependabot can automatically create Pull Requests with dependency updates.
+
+---
+Source: #source/internet_resources 
+Project: #project/devops
+Areas: #area/work
+Subject: #subject/git 
+Type: #type/tutorial
+Related: [[Git]]

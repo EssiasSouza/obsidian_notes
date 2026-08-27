@@ -1,13 +1,3 @@
-Source: #source/internet_resources 
-Project: #project/platform 
-Areas: #area/work
-Subject: #subject/infraestructure
-Type: #type/idea
-Learning priority: #priority/P0 
-Status: #status/learning  
-Related: [[Platform Engineering]]
-
----
 ## [Internal Developer Platforms](https://catalog.us-east-1.prod.workshops.aws/event/dashboard/en-US/workshop/10-platformengineering/11-platformengineering/001-section1-idp-platform#internal-developer-platforms)
 
 Internal Developer Platforms (IDPs) aim to simplify developers' work. They do this by bringing together various tools and products in one place. This helps reduce the mental effort needed to switch between different systems and makes it easier for new team members to get started.
@@ -66,3 +56,13 @@ The platform has been configured with many tools. You can check that everything 
 ```bash
 argocd-sync
 ```
+
+---
+Source: #source/internet_resources 
+Project: #project/platform 
+Areas: #area/work
+Subject: #subject/infraestructure
+Type: #type/idea
+Learning priority: #priority/P0 
+Status: #status/learning  
+Related: [[Platform Engineering]]

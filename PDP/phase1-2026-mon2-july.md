@@ -1,13 +1,3 @@
-Source: #source/internet_resources 
-Project: #project/pdp
-Areas: #area/work 
-Subject: #subject/professional 
-Type: #type/document
-Learning priority: #priority/P0
-Status: #status/learning 
-Related: [[PDP]]
-
----
 # July 2026 - Phase 1 Execution Plan
 
 ## Monthly Objective
@@ -154,3 +144,13 @@ At the end of July, evaluate:
 | Consistency                | Did I maintain practical repetition and documentation discipline?        |
 
 The results of this review will guide the refinement of August planning.
+
+---
+Source: #source/internet_resources 
+Project: #project/pdp
+Areas: #area/work 
+Subject: #subject/professional 
+Type: #type/document
+Learning priority: #priority/P0
+Status: #status/learning 
+Related: [[PDP]]

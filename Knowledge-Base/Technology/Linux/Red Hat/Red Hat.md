@@ -1,13 +1,3 @@
-Source: #source/internet_resources 
-Project: #project/devops
-Areas: #area/work
-Subject: #subject/operational_systems
-Type: #type/learning 
-Learning priority: #priority/P1 
-Status: #status/to_learning 
-Related: [[Linux Roadmap]]
-
----
 ### Certification Roadmap
 
 #### Enterprise Linux
@@ -44,3 +34,13 @@ Related: [[Linux Roadmap]]
 - AI Workload Deployment
 - GPU Optimization
 - Model Deployment
+
+---
+Source: #source/internet_resources 
+Project: #project/devops
+Areas: #area/work
+Subject: #subject/operational_systems
+Type: #type/learning 
+Learning priority: #priority/P1 
+Status: #status/to_learning 
+Related: [[Linux Roadmap]]

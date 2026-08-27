@@ -1,13 +1,3 @@
-Source: #source/internet_resources 
-Project: #project/personal 
-Areas: #area/knowledge 
-Subject: #subject/language 
-Type: #type/learning 
-Learning priority: #priority/P4
-Status: #status/learned 
-Related: 
-
----
 https://wol.jw.org/pt/wol/d/r5/lp-t/1200002231
 # Essias e יִשִּׁיָּה: Um Estudo Linguístico Sobre Transliteração Hebraica e Relações Semíticas
 
@@ -277,3 +267,13 @@ A transformação:
 A ausência de vogais no hebraico antigo, somada ao surgimento posterior dos sinais massoréticos e do sistema de vocalização, contribuiu diretamente para o aparecimento de múltiplas formas fonéticas do mesmo nome ao longo da história.
 
 Nesse contexto, “Essias” preserva ecos linguísticos de antigas tradições semíticas, tanto hebraicas quanto árabes.
+
+---
+Source: #source/internet_resources 
+Project: #project/personal 
+Areas: #area/knowledge 
+Subject: #subject/language 
+Type: #type/learning 
+Learning priority: #priority/P4
+Status: #status/learned 
+Related: 

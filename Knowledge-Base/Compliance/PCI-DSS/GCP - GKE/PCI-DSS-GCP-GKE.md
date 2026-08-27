@@ -1,14 +1,3 @@
-Source: #source/internet_resources
-Project: #project/compliance
-Areas: #area/work
-Subject: #subect/pci-dss
-Type: #type/learning
-Learning priority: #priority/P2
-Status: #status/learning 
-Related: 
-
----
-
 # PCI-DSS-GCP-GKE
 
 # Inventário de produtos e configurações que deverão ser trabalhados
@@ -299,3 +288,13 @@ Resposta
 ✔ Remediação
 ✔ Evidências
 ✔ Auditoria PCI DSS
+
+---
+Source: #source/internet_resources
+Project: #project/compliance
+Areas: #area/work
+Subject: #subect/pci-dss
+Type: #type/learning
+Learning priority: #priority/P2
+Status: #status/learning 
+Related: 

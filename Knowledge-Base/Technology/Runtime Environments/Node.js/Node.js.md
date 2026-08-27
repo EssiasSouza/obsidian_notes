@@ -1,13 +1,3 @@
-Source: #source/internet_resources 
-Project: #project/full_stack
-Areas: #area/work
-Subject: #subject/run_environments
-Type: #type/learning 
-Learning priority: #priority/P1 
-Status: #status/learning 
-Related: [[Java Script]]
-
----
 # Node.js
 
 [https://nodejs.org/api/modules.html](https://nodejs.org/api/modules.html)
@@ -67,6 +57,12 @@ Installing devDependences that are in the `package.json`
 npm install <package name> -D
 ```
 
-
-
-
+---
+Source: #source/internet_resources 
+Project: #project/full_stack
+Areas: #area/work
+Subject: #subject/run_environments
+Type: #type/learning 
+Learning priority: #priority/P1 
+Status: #status/learning 
+Related: [[Java Script]]

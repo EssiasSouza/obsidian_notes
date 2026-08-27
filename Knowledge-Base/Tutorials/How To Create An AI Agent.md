@@ -1,14 +1,3 @@
-Source: #source/internet_resources 
-Project: #project/artificial_intelligence
-Areas: #area/work
-Subject: #subect/agentic_ai
-Type: #type/learning 
-Learning priority: #priority/P2 
-Status: #status/to_learning
-Related: [[AI]]
-
----
-
 # Tutorial: Building AI Agents from Scratch with ChatGPT
 
 ## Introduction
@@ -656,3 +645,13 @@ If you need work with different harness you can follow this.
 |OpenClaw|✅ `AGENTS.md`|
 |Antigravity|✅ `GEMINI.md`|
 |OpenAI Agents SDK|Prompt definido em código|
+
+---
+Source: #source/internet_resources 
+Project: #project/artificial_intelligence
+Areas: #area/work
+Subject: #subect/agentic_ai
+Type: #type/learning 
+Learning priority: #priority/P2 
+Status: #status/to_learning
+Related: [[AI]]

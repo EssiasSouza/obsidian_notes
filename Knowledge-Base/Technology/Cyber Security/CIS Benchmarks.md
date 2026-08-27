@@ -1,13 +1,3 @@
-Source: #source/internet_resources
-Project: #project/cyber_security
-Areas: #area/work
-Subject: #subject/cis
-Type: #type/article
-Learning priority: #priority/P2 
-Status: #status/learning 
-Related: [[Cyber Security]]
-
----
 # CIS Benchmarks: Understanding the Center for Internet Security and Why Benchmarks Matter
 
 ## Introduction
@@ -283,3 +273,13 @@ Whether securing an on premises data center, a Kubernetes cluster, or a Google C
 
 Donwload the documents:
 [CIS Downloads](https://downloads.cisecurity.org/#/)
+
+---
+Source: #source/internet_resources
+Project: #project/cyber_security
+Areas: #area/work
+Subject: #subject/cis
+Type: #type/article
+Learning priority: #priority/P2 
+Status: #status/learning 
+Related: [[Cyber Security]]

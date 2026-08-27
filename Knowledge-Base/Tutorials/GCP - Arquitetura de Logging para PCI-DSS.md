@@ -1,13 +1,3 @@
-Source: #source/internet_resources
-Project: #project/compliance 
-Areas: #area/work
-Subject: #subect/pci-dss 
-Type: #type/idea
-Learning priority: #priority/P2 
-Status: #status/learned 
-Related: [[PCI-DSS-GCP-GKE]]
-
----
 # GCP: Arquitetura de Logging para PCI-DSS
 
 ## Objetivo
@@ -574,3 +564,13 @@ Essa arquitetura cria uma separação clara entre **investigação operacional**
 * [Cloud Logging: Export logs to Cloud Storage](https://docs.cloud.google.com/logging/docs/export/storage?utm_source=chatgpt.com)
 * [Cloud Storage: Autoclass](https://docs.cloud.google.com/storage/docs/autoclass?utm_source=chatgpt.com)
 * [Cloud Storage: Storage classes](https://docs.cloud.google.com/storage/docs/storage-classes?utm_source=chatgpt.com)
+
+---
+Source: #source/internet_resources
+Project: #project/compliance 
+Areas: #area/work
+Subject: #subect/pci-dss 
+Type: #type/idea
+Learning priority: #priority/P2 
+Status: #status/learned 
+Related: [[PCI-DSS-GCP-GKE]]
