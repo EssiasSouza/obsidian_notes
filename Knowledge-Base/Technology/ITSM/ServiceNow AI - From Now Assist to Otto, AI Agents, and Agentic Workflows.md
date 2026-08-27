@@ -10,6 +10,8 @@ Related:
 ---
 # ServiceNow AI: From Now Assist to Otto, AI Agents, and Agentic Workflows
 
+[How to Activate Your Now Assist for ITSM](https://www.youtube.com/watch?v=RUh5mYXbDLA&t=320s)
+
 ## Introduction
 
 ServiceNow is going through a major shift in how work is performed on its platform.
