@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge-Base/Technology/AI/Nvidia Run ai/Nvidia Run ai.md",
+                "file": "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/1.1-Introduction to AI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Nvidia Run ai"
+              "title": "1.1-Introduction to AI"
             }
           }
         ]
@@ -209,6 +209,8 @@
   },
   "active": "14b7b9cf5c287cde",
   "lastOpenFiles": [
+    "Knowledge-Base/Sandbox/Sandbox.md",
+    "Knowledge-Base/Technology/Cyber Security/Cisco AMP Commands.md",
     "Knowledge-Base/Technology/AI/Nvidia Run ai/Nvidia Run ai.md",
     "Knowledge-Base/Technology/AI/AWS - AI.md",
     "Knowledge-Base/Technology/ITSM/ServiceNow AI - From Now Assist to Otto, AI Agents, and Agentic Workflows.md",
@@ -235,8 +237,6 @@
     "Knowledge-Base/Technology/Dev/Appian/Appian 4.3 - Building a Form.md",
     "Knowledge-Base/Technology/Dev/Appian/Appian 4.2 - Interfaces Layouts.md",
     "Knowledge-Base/Technology/Dev/Appian/Appian 4.1 - Interface Understanding.md",
-    "Knowledge-Base/Technology/Dev/Appian/Appian 3.5 - Conditional Statements.md",
-    "Knowledge-Base/Technology/Dev/Appian/Appian 3.4 - For Each Loop.md",
     "Knowledge-Base/Technology/Dev/Appian",
     "Knowledge-Base/Technology/Cloud/Ingress",
     "Essias-Agent/Personas",
