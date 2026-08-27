@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge-Base/Technology/ITSM/ServiceNow AI - From Now Assist to Otto, AI Agents, and Agentic Workflows.md",
+                "file": "Knowledge-Base/Technology/AI/Nvidia Run ai/Nvidia Run ai.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ServiceNow AI - From Now Assist to Otto, AI Agents, and Agentic Workflows"
+              "title": "Nvidia Run ai"
             }
           }
         ]
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#time_line/june_10",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,8 +76,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -208,10 +207,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f83bab9c4c085a7d",
+  "active": "14b7b9cf5c287cde",
   "lastOpenFiles": [
-    "Knowledge-Base/Technology/Network/DNS - Domain Name Service.md",
+    "Knowledge-Base/Technology/AI/Nvidia Run ai/Nvidia Run ai.md",
+    "Knowledge-Base/Technology/AI/AWS - AI.md",
     "Knowledge-Base/Technology/ITSM/ServiceNow AI - From Now Assist to Otto, AI Agents, and Agentic Workflows.md",
+    "Knowledge-Base/Technology/AI/Nvidia Run ai",
+    "Knowledge-Base/Technology/Network/DNS - Domain Name Service.md",
     "Knowledge-Base/Tutorials/Corrigindo o warning de version no provider do Terraform.md",
     "Knowledge-Base/Technology/Untitled",
     "Knowledge-Base/Tutorials/GKE - Installing External Secrets Operator.md",
@@ -235,8 +237,6 @@
     "Knowledge-Base/Technology/Dev/Appian/Appian 4.1 - Interface Understanding.md",
     "Knowledge-Base/Technology/Dev/Appian/Appian 3.5 - Conditional Statements.md",
     "Knowledge-Base/Technology/Dev/Appian/Appian 3.4 - For Each Loop.md",
-    "Knowledge-Base/Technology/Dev/Appian/Appian 3.3 - Rule Inputs and Local Variables.md",
-    "Knowledge-Base/Technology/Dev/Appian/Appian 3.2 - Appian Functions.md",
     "Knowledge-Base/Technology/Dev/Appian",
     "Knowledge-Base/Technology/Cloud/Ingress",
     "Essias-Agent/Personas",
@@ -245,7 +245,6 @@
     "Essias-Agent/4_Agents/Agents",
     "Essias-Agent/4_Agents",
     "Essias-Agent/3_Knowledge_and_Memory/Experiences/Kubernetes",
-    "Essias-Agent/3_Knowledge_and_Memory/Experiences/Leadership",
     "Pasted image 20260728163103.png",
     "Pasted image 20260728162525.png",
     "Pasted image 20260728145406.png",
