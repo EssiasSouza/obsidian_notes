@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge-Base/Technology/Dev/Appian/Appian 1.1 - Introdução.md",
+                "file": "Knowledge-Base/Technology/Dev/Appian/Appian 1.2 - Sobre o Appian.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Appian 1.1 - Introdução"
+              "title": "Appian 1.2 - Sobre o Appian"
             }
           }
         ]
@@ -209,6 +209,7 @@
   },
   "active": "14b7b9cf5c287cde",
   "lastOpenFiles": [
+    "Knowledge-Base/Technology/Dev/Appian/Appian 1.1 - Introdução.md",
     "Knowledge-Base/Technology/Cloud/Ingress/Kong Gateway - Troubleshooting e Diagnóstico.md",
     "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/1.3-AI vs ML vs DL.md",
     "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/1.2-AI - Tasks and Data.md",
@@ -236,7 +237,6 @@
     "Knowledge-Base/Technology/Dev/Appian/Appian 6.1 - About Process Model.md",
     "Knowledge-Base/Technology/Dev/Appian/Appian 5.3 - Modify CDT.md",
     "Knowledge-Base/Technology/Dev/Appian/Appian 5.4 - Understanding XSD.md",
-    "Knowledge-Base/Technology/Dev/Appian/Appian 5.2 - CDT ( Custom Data Types ).md",
     "Knowledge-Base/Technology/Dev/Appian",
     "Knowledge-Base/Technology/Cloud/Ingress",
     "Essias-Agent/Personas",
