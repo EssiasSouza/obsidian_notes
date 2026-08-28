@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge-Base/Technology/Dev/Appian/Appian 1.2 - Sobre o Appian.md",
+                "file": "Knowledge-Base/Tutorials/Testar autenticação OAuth 2.0 com certificado dentro de um Pod Kubernetes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Appian 1.2 - Sobre o Appian"
+              "title": "Testar autenticação OAuth 2.0 com certificado dentro de um Pod Kubernetes"
             }
           }
         ]
@@ -55,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#status/learning",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -207,8 +207,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "14b7b9cf5c287cde",
+  "active": "2799abf03005dede",
   "lastOpenFiles": [
+    "Knowledge-Base/Tutorials/Corrigindo o warning de version no provider do Terraform.md",
+    "Knowledge-Base/Tutorials/Testar autenticação OAuth 2.0 com certificado dentro de um Pod Kubernetes.md",
+    "Knowledge-Base/Technology/Dev/Appian/Appian 1.2 - Sobre o Appian.md",
     "Knowledge-Base/Technology/Dev/Appian/Appian 1.1 - Introdução.md",
     "Knowledge-Base/Technology/Cloud/Ingress/Kong Gateway - Troubleshooting e Diagnóstico.md",
     "Knowledge-Base/Technology/AI/OCI AI Foundations Associate/1.3-AI vs ML vs DL.md",
@@ -221,7 +224,6 @@
     "Knowledge-Base/Technology/ITSM/ServiceNow AI - From Now Assist to Otto, AI Agents, and Agentic Workflows.md",
     "Knowledge-Base/Technology/AI/Nvidia Run ai",
     "Knowledge-Base/Technology/Network/DNS - Domain Name Service.md",
-    "Knowledge-Base/Tutorials/Corrigindo o warning de version no provider do Terraform.md",
     "Knowledge-Base/Technology/Untitled",
     "Knowledge-Base/Tutorials/GKE - Installing External Secrets Operator.md",
     "Knowledge-Base/Technology/Cloud/Kubernetes/openBao - Credentials Platform.md",
@@ -235,8 +237,6 @@
     "Knowledge-Base/Technology/Dev/Appian/Appian 6.3 - Write Data into DB - Part B.md",
     "Knowledge-Base/Technology/Dev/Appian/Appian 6.2 - Write Data into DB - Part A.md",
     "Knowledge-Base/Technology/Dev/Appian/Appian 6.1 - About Process Model.md",
-    "Knowledge-Base/Technology/Dev/Appian/Appian 5.3 - Modify CDT.md",
-    "Knowledge-Base/Technology/Dev/Appian/Appian 5.4 - Understanding XSD.md",
     "Knowledge-Base/Technology/Dev/Appian",
     "Knowledge-Base/Technology/Cloud/Ingress",
     "Essias-Agent/Personas",

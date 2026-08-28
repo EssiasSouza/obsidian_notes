@@ -1,15 +1,3 @@
-Source: #source/internet_resources 
-Project: #project/devops
-Areas: #area/work
-Subject: #subject/kubernetes
-Type: #type/tutorial
-Status: #status/learning 
-Related: [[Cloud Computing]]
-[[Kubernetes Roadmap]]
-[[External Secret Operator]]
-[[GKE - Google Kubernetes Engine]]
-
----
 # Tutorial: Corrigindo o warning de `version` no provider do Terraform
 
 ## Objetivo
@@ -167,3 +155,15 @@ terraform {
 |`source`|`terraform.required_providers`|
 
 **Regra para lembrar:** o bloco `provider` configura **como o provider funciona**; o bloco `required_providers` define **qual provider e qual versão serão utilizados**.
+
+---
+Source: #source/internet_resources 
+Project: #project/devops
+Areas: #area/work
+Subject: #subject/kubernetes
+Type: #type/tutorial
+Status: #status/learning 
+Related: [[Cloud Computing]]
+[[Kubernetes Roadmap]]
+[[External Secret Operator]]
+[[GKE - Google Kubernetes Engine]]
