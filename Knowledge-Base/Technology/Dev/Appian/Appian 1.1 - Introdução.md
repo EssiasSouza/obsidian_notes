@@ -1,31 +1,27 @@
-Olá a todos.
+# Introdução ao Curso de Appian
 
-Como estão todos? Eu me chamo Akshay
+Olá a todos!
 
-e sou um desenvolvedor certificado da Appian.
+Meu nome é Essias e sou desenvolvedor Appian.
 
-Estou aqui para iniciar sessões de treinamento em Appian para você
+Neste treinamento, compartilharei meus conhecimentos e aprendizados adquiridos em cenários reais de desenvolvimento com Appian. Ao longo das aulas, vamos conhecer os principais conceitos da plataforma e entender como o desenvolvimento low-code pode ser aplicado na construção de aplicações.
 
-e compartilharei todos os meus aprendizados e conhecimentos em cenários reais.
+## O que vamos aprender
 
-E aprenderemos sobre o desenvolvimento de baixo código e sobre o
+Durante o curso, começaremos pelos fundamentos do Appian e avançaremos gradualmente até a construção de uma aplicação completa.
 
-Appian, que é a ferramenta de desenvolvimento de baixo código.
+Entre os principais assuntos, abordaremos:
 
-Certo.
+* O que é o Appian e o desenvolvimento low-code.
+* A arquitetura do Appian.
+* O Appian Designer e seus principais recursos.
+* O Admin Console.
+* Os principais objetos de design utilizados no desenvolvimento de aplicações.
 
-Então, vamos rapidamente para o conteúdo do curso e aprenderemos sobre o Appian, sobre a arquitetura
+Ao longo do treinamento, também desenvolveremos uma aplicação de ponta a ponta.
 
-do Appian, sobre o desenvolvimento de baixo código e sobre o conteúdo do curso do
+A ideia é que o desenvolvimento dessa aplicação acompanhe a evolução do conteúdo. Sempre que um novo objeto de design ou conceito for apresentado, vamos aplicá-lo diretamente no projeto que estaremos construindo.
 
-Appian, como o console de administração e os objetos de design do designer do Appian.
+Dessa forma, além de compreender os conceitos individualmente, poderemos observar como eles se relacionam na construção de uma aplicação real.
 
-E, por fim, abordaremos um aplicativo de ponta a ponta,
-
-de modo que começaremos do início da palestra e, sempre
-
-que abordarmos qualquer objeto de design paralelamente, trabalharemos nesse aplicativo.
-
-Então, vamos começar.
-
-E isso é tudo para esta palestra.
+Então, vamos começar!
