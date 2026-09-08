@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge-Base/Tutorials/Kong routes.md",
+                "file": "Knowledge-Base/Technology/Cloud/Kubernetes/Kubectl.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Kong routes"
+              "title": "Kubectl"
             }
           }
         ]
@@ -209,6 +209,9 @@
   },
   "active": "14b7b9cf5c287cde",
   "lastOpenFiles": [
+    "Knowledge-Base/Technology/Cloud/Kubernetes/Helm charts.md",
+    "Knowledge-Base/Technology/Cloud/Kubernetes/Kubectl.md",
+    "Knowledge-Base/Tutorials/Kong routes.md",
     "Knowledge-Base/Tutorials/Testar autenticação OAuth 2.0 com certificado dentro de um Pod Kubernetes.md",
     "Knowledge-Base/Tutorials/Corrigindo o warning de version no provider do Terraform.md",
     "Knowledge-Base/Technology/Dev/Appian/Appian 1.2 - Sobre o Appian.md",
@@ -233,10 +236,7 @@
     "Knowledge-Base/Tutorials/Samba AD DC Configuration on Ubuntu.md",
     "Knowledge-Base/Tutorials/Configure File Nesting in VS Code.md",
     "Knowledge-Base/Tutorials/Configure File Nesting in VS Code 2.md",
-    "Knowledge-Base/Tutorials/Kong routes.md",
     "Knowledge-Base/Technology/Dev/Appian/Appian 6.3 - Write Data into DB - Part B.md",
-    "Knowledge-Base/Technology/Dev/Appian/Appian 6.2 - Write Data into DB - Part A.md",
-    "Knowledge-Base/Technology/Dev/Appian/Appian 6.1 - About Process Model.md",
     "Knowledge-Base/Technology/Dev/Appian",
     "Knowledge-Base/Technology/Cloud/Ingress",
     "Essias-Agent/Personas",

@@ -36,3 +36,8 @@ kubectl cluster-info
 The context are at `~/.kube/config`
 
 ---
+Access container.
+
+```
+kubectl exec -it <pod-name> -n <namespace> -c <container-name> -- /bin/bash
+```
