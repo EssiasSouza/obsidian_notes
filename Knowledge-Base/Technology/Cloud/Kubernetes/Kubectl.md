@@ -41,3 +41,16 @@ Access container.
 ```
 kubectl exec -it <pod-name> -n <namespace> -c <container-name> -- /bin/bash
 ```
+
+---
+Duplicating secrets
+```
+apiVersion: v1
+kind: Secret
+metadata:
+  name: my-secret
+type: Opaque
+data:
+  Template: TnVsbA==
+```
+
