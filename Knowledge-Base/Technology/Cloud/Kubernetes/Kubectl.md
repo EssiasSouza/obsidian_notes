@@ -54,3 +54,10 @@ data:
   Template: TnVsbA==
 ```
 
+---
+Getting secrets and keys
+
+```
+kubectl get secrets -n my-namespace -o json | \
+jq -r '.items[] | "\(.metadata.name):\n" + ((.data // {}) | keys[] | "  - \(.)")'
+```
