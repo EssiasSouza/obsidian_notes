@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge-Base/Technology/Cloud/AWS/AWS CLI.md",
+                "file": "Knowledge-Base/DevOps/DevOps - Roadmap.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AWS CLI"
+              "title": "DevOps - Roadmap"
             }
           }
         ]
@@ -209,6 +209,9 @@
   },
   "active": "14b7b9cf5c287cde",
   "lastOpenFiles": [
+    "Knowledge-Base/Technology/Cloud/AWS/AWS CLI.md",
+    "Knowledge-Base/DevOps/DevOps - Roadmap.md",
+    "Knowledge-Base/DevOps",
     "Knowledge-Base/Technology/Cloud/Kubernetes/Kubectl.md",
     "Knowledge-Base/Technology/Cloud/Kubernetes/Helm charts.md",
     "Knowledge-Base/Tutorials/Kong routes.md",
@@ -235,8 +238,6 @@
     "Knowledge-Base/Technology/Linux/Red Hat/Red Hat.md",
     "Knowledge-Base/Tutorials/Samba AD DC Configuration on Ubuntu.md",
     "Knowledge-Base/Tutorials/Configure File Nesting in VS Code.md",
-    "Knowledge-Base/Tutorials/Configure File Nesting in VS Code 2.md",
-    "Knowledge-Base/Technology/Dev/Appian/Appian 6.3 - Write Data into DB - Part B.md",
     "Knowledge-Base/Technology/Dev/Appian",
     "Knowledge-Base/Technology/Cloud/Ingress",
     "Essias-Agent/Personas",
@@ -244,7 +245,6 @@
     "Essias-Agent/4_Agents/Agents/Atlas",
     "Essias-Agent/4_Agents/Agents",
     "Essias-Agent/4_Agents",
-    "Essias-Agent/3_Knowledge_and_Memory/Experiences/Kubernetes",
     "Pasted image 20260728163103.png",
     "Pasted image 20260728162525.png",
     "Pasted image 20260728145406.png",
