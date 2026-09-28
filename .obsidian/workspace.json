@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Knowledge-Base/DevOps/DevOps - Roadmap.md",
+                "file": "Knowledge-Base/Personal Communication/English.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DevOps - Roadmap"
+              "title": "English"
             }
           }
         ]
@@ -209,8 +209,9 @@
   },
   "active": "14b7b9cf5c287cde",
   "lastOpenFiles": [
-    "Knowledge-Base/Technology/Cloud/AWS/AWS CLI.md",
+    "Knowledge-Base/Personal Communication/Mock interviews.md",
     "Knowledge-Base/DevOps/DevOps - Roadmap.md",
+    "Knowledge-Base/Technology/Cloud/AWS/AWS CLI.md",
     "Knowledge-Base/DevOps",
     "Knowledge-Base/Technology/Cloud/Kubernetes/Kubectl.md",
     "Knowledge-Base/Technology/Cloud/Kubernetes/Helm charts.md",
@@ -237,7 +238,6 @@
     "Knowledge-Base/Technology/Linux/Red Hat/How to Rename a Network Interface.md",
     "Knowledge-Base/Technology/Linux/Red Hat/Red Hat.md",
     "Knowledge-Base/Tutorials/Samba AD DC Configuration on Ubuntu.md",
-    "Knowledge-Base/Tutorials/Configure File Nesting in VS Code.md",
     "Knowledge-Base/Technology/Dev/Appian",
     "Knowledge-Base/Technology/Cloud/Ingress",
     "Essias-Agent/Personas",

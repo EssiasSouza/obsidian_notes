@@ -1,7 +1,6 @@
 Para alguém que quer realmente trabalhar como **DevOps/SRE/Platform Engineer**, eu dividiria em **8 etapas**, começando pelos fundamentos e terminando em observabilidade, segurança e arquitetura. A ideia é que cada etapa gere um conhecimento que você consiga usar na seguinte.
 
 Um curso recente da Udemy, por exemplo, organiza justamente Linux, Git, CI/CD, Docker, Kubernetes, AWS e Terraform em uma sequência prática, enquanto a Microsoft mantém uma trilha oficial de DevOps que cobre CI/CD, GitHub Actions e estratégias de release. ([Udemy][1])
-
 # Trilha DevOps completa
 
 | Etapa | O que aprender                  | Ferramentas principais                          | Prioridade |
